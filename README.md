@@ -1,14 +1,14 @@
 ## Eusociality evolved at a much higher rate in haplodiploid insects
 
 ### Reference Information
-This is the README file for the dataset associated with the paper "Eusociality evolved at a much higher rate in haplodiploid insects". This file uses Markdown syntax and has a .md extension
+This is the README file for the dataset associated with the manuscript "Eusociality evolved at a much higher rate in haplodiploid insects". This file uses Markdown syntax and has a .md extension
 
 ---
 ### General details of this README
 
 * **File name:** README(.md)
-* **Author(s):** Sachin Suresh
-* **Contributors(s):** Timothy A. Linksvayer
+* **Author:** Sachin Suresh
+* **Contributors:** Timothy A. Linksvayer
 * **Date created:** 01/01/2025 (mm/dd/yyyy)
 * **Date modified:** 01/01/2025 (mm/dd/yyyy)
 ---
@@ -115,4 +115,50 @@ This work received partial support from National Science Foundation (IOS 2128304
 
 ---
 ### Software
-**Recommended software/tools:** RStudio 2022.12.0; R version 4.2.2
+**Recommended software/tools:** RStudio 2023.06.0 or higher; R version 4.3.2 or higher
+- - -
+
+## File Details
+
+### 1) eus_hap_data_20221130.csv
+- **Description:** A comma-delimited file containing data on haplodiploid insects, including taxonomic details (e.g., Order, Family, Genus, Species) and attributes related to sociality and haplodiploidy.
+- **File path:** /Data files/Trait data files/eus_hap_data_20221130.csv
+- **Format(s):** `.csv`  
+- **Size:** 192.8 KB  
+- **Dimensions:** 1226 rows × 12 columns  
+- **Variables:**
+  - **Order:** The taxonomic order to which the species belongs.
+  - **Family:** The taxonomic family to which the species belongs.
+  - **Subfamily:** The taxonomic subfamily to which the species belongs.
+  - **Tribe:** The taxonomic tribe, if applicable.
+  - **Name:** Full taxonomic name of the species.
+  - **Genus:** The genus of the species.
+  - **Species:** The specific epithet of the species.
+  - **Sociality:** Social organization type (e.g., solitary, eusocial).
+  - **Source:Sociality:** The source of information for the sociality classification.
+  - **Haplodiploidy:** Haplodiploidy status of the species.
+  - **Source: Haplodiploidy:** The source of information for the haplodiploidy classification.
+  
+### 2) halictidae_pruned_processed_pheno_df.csv
+- **Description:** A comma-delimited file containing data on sociality and ploidy of insects. This .csv file is specifically created to analyze evolutionary relationship between sociality and ploidy in an insect phylogeny, where the Halictidae family is pruned to "force" only two origins of eusociality. 
+- **File path:** /Data files/Trait data files/halictidae_pruned_processed_pheno_df.csv
+- **Format(s):** `.csv`  
+- **Size:** 4421.5 KB  
+- **Dimensions:** 49169 rows × 11 columns  
+- **Variables:**
+  - **name:** Full taxonomic name of the species.
+  - **genus:** The genus to which the species belongs.
+  - **species:** The specific epithet of the species.
+  - **order:** The taxonomic order of the species.
+  - **family:** The taxonomic family of the species.
+  - **sociality:** The social organization type of the species (e.g., solitary, eusocial).
+  - **haplodiploidy:** Ploidy type (e.g., arrhenotoky, paternal genome elimination, diploid).
+  - **HD.arrhenotoky:** Stricter classification of haplodiploidy where only "arrhenotoky" is considered as haplodiploid ("HD") and rest are considered diploid ("DD")
+  - **HD.all:** Broader classification of haplodiploidy where "arrhenotoky" and "paternal genome elimination" are considered as haplodiploid ("HD") and rest are considered diploid ("DD")
+  - **Eusocial:** Classification of eusociality based on [*Wilson 1971*](https://www.hup.harvard.edu/books/9780674454903)
+  - **Eusocial.strict:** Strict classification of eusociality based on [*Boomsma and Gawne 2018*](https://onlinelibrary.wiley.com/doi/full/10.1111/brv.12330)
+  
+  
+  
+  
+  
