@@ -48,7 +48,7 @@ This work received partial support from National Science Foundation (IOS 2128304
 ## Data and File Overview
 ### Summary Metrics
 * **File count:** 52
-* **Total file size:** 22.6 MB
+* **Total file size:** 22.8 MB
 * **File formats:** .csv, .tre, .R, .txt
  
 ### Table of Contents
@@ -1289,7 +1289,6 @@ This work received partial support from National Science Foundation (IOS 2128304
 
 
 ### 48) results_simmap_fitMk_ARD_fitzjohnpi_haparrh_euskoos_fulltree.R
-# R Script Description
 - **Description:** An R script designed to consolidate and visualize results from a Simmap analysis using the phylogeny from [Chesters (2017)](https://academic.oup.com/sysbio/article/66/3/426/2684526). Haplodiploidy is strictly defined (**HD.arrhenotoky**) and Eusociality is strictly defined (**EusKoos**) based on [Boomsma and Gawne (2018)](https://onlinelibrary.wiley.com/doi/10.1111/brv.12330).
 - **File path:** /R scripts/Simmap/results_simmap_fitMk_ARD_fitzjohnpi_haparrh_euskoos_fulltree.R
 - **Format(s):** `.R`  
@@ -1449,6 +1448,7 @@ This work received partial support from National Science Foundation (IOS 2128304
 
 ### 52) config_insect_calibration.txt
 - **Description:** A configuration file for running **treePL**, a software designed for phylogenetic dating using penalized likelihood methods. This file specifies calibration constraints, input tree details, computational parameters, and optimization settings. The file is associated with insect phylogeny calibration for divergence time estimation.
+- **File path:** /Tree calibration files/config_insect_calibration.txt
 - **Format(s):** `.txt`
 - **Size:** 3.2 KB
 - **Purpose:**
