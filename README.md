@@ -53,75 +53,11 @@ This work received partial support from National Science Foundation (IOS 2128304
  
 ### Table of Contents
 
-* Trait data files
-  * eus_hap_data_20221130.csv
-  * halictidae_pruned_processed_pheno_df.csv
-  * pheno_processed_df_20231023.csv
-  * tip_labels_insect_tree_pruned_1000sp_eus_added_castor_20240130.csv
-  * tree_of_sex_data_20221009.csv
-
-* Tree file
-  * halictidae_pruned_insect_phylogeny_2017_collapsed_calibrated.tre
-  * insect_phylogeny_2017_collapsed_calibrated.tre
-  * insect_phylogeny_2017_collapsed_calibrated_trimmed_1000sp_eus_added_castor.tre
-  
-* R scripts
-  * FitPagel
-    * halictidae_pruned_hap_and_eus_depx_fitMk_ARD_fitzjohnpi_20231023.R
-    * halictidae_pruned_hap_and_eus_depx_fitMk_ARD_fitzjohnpi_haparrhenotoky_20231023.R
-    * halictidae_pruned_hap_and_eus_depx_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_20241216.R
-    * halictidae_pruned_hap_and_eus_depxy_fitMk_ARD_fitzjohnpi_20231023.R
-    * halictidae_pruned_hap_and_eus_depxy_fitMk_ARD_fitzjohnpi_haparrhenotoky_20231023.R
-    * halictidae_pruned_hap_and_eus_depxy_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_20241216.R
-    * halictidae_pruned_hap_and_eus_depy_fitMk_ARD_fitzjohnpi_20231023.R
-    * halictidae_pruned_hap_and_eus_depy_fitMk_ARD_fitzjohnpi_haparrhenotoky_20231023.R
-    * halictidae_pruned_hap_and_eus_depy_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_20241216.R
-    * hap_and_eus_depx_fitMk_ARD_fitzjohnpi_20231023.R
-    * hap_and_eus_depx_fitMk_ARD_fitzjohnpi_hapall_euskoos_20240323.R
-    * hap_and_eus_depx_fitMk_ARD_fitzjohnpi_haparrhenotoky_20231023.R
-    * hap_and_eus_depx_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_20240129.R
-    * hap_and_eus_depxy_fitMk_ARD_fitzjohnpi_20231023.R
-    * hap_and_eus_depxy_fitMk_ARD_fitzjohnpi_hapall_euskoos_20240323.R
-    * hap_and_eus_depxy_fitMk_ARD_fitzjohnpi_haparrhenotoky_20231023.R
-    * hap_and_eus_depxy_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_20240129.R
-    * hap_and_eus_depy_fitMk_ARD_fitzjohnpi_20231023.R
-    * hap_and_eus_depy_fitMk_ARD_fitzjohnpi_hapall_euskoos_20240323.R
-    * hap_and_eus_depy_fitMk_ARD_fitzjohnpi_haparrhenotoky_20231023.R
-    * hap_and_eus_depy_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_20240129.R
-    * results_consolidated_fulltree_hdall_eusall.R
-    * results_consolidated_fulltree_hdall_euskoos.R
-    * results_consolidated_fulltree_hdarrh_eusall.R
-    * results_consolidated_fulltree_hdarrh_euskoos.R
-    * results_consolidated_halictidae_pruned_hdall_eusall.R
-    * results_consolidated_halictidae_pruned_hdarrh_eusall.R
-    * results_consolidated_halictidae_pruned_hdarrh_euskoos.R
-    
-  * LTT
-    * lineages-through-time_plot_20240516.R
-    
-  * Simmap
-    * hap_and_eus_simmap_fitMk_ARD_fitzjohnpi_fulltree_20231023.R
-    * hap_and_eus_simmap_fitMk_ARD_fitzjohnpi_hapall_halictidae_pruned_20240402.R
-    * hap_and_eus_simmap_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_fulltree_20240402.R
-    * hap_and_eus_simmap_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_halictidae_pruned.R
-    * hap_and_eus_simmap_fitMk_ARD_fitzjohnpi_haparrhenotoky_fulltree_20231023.R
-    * hap_and_eus_simmap_fitMk_ARD_fitzjohnpi_haparrhenotoky_halictidae_pruned_20231023.R
-    * hap_and_eus_simmap_fitMk_ARD_fitzjohnpi_hdall_euskoos_fulltree_20240402.R
-    * results_simmap_fitMk_ARD_fitzjohnpi_fulltree.R
-    * results_simmap_fitMk_ARD_fitzjohnpi_hapall_eusall_halictidae_pruned.R
-    * results_simmap_fitMk_ARD_fitzjohnpi_hapall_euskoos_fulltree.R
-    * results_simmap_fitMk_ARD_fitzjohnpi_haparrh_euskoos_fulltree.R
-    * results_simmap_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_halictidae_pruned.R
-    * results_simmap_fitMk_ARD_fitzjohnpi_haparrhenotoky_fulltree.R
-    * results_simmap_fitMk_ARD_fitzjohnpi_haparrhenotoky_halictidae_pruned.R
-
-
 | **Category**     | **Files**                                                                                                      |
 |-------------------|----------------------------------------------------------------------------------------------------------------|
 | **Trait Data Files** | eus_hap_data_20221130.csv  <br> halictidae_pruned_processed_pheno_df.csv <br> pheno_processed_df_20231023.csv <br> tip_labels_insect_tree_pruned_1000sp_eus_added_castor_20240130.csv <br> tree_of_sex_data_20221009.csv |
 | **Tree Files**    | halictidae_pruned_insect_phylogeny_2017_collapsed_calibrated.tre <br> insect_phylogeny_2017_collapsed_calibrated.tre <br> insect_phylogeny_2017_collapsed_calibrated_trimmed_1000sp_eus_added_castor.tre |
-| **R Scripts**     | **FitPagel**  <br> halictidae_pruned_hap_and_eus_depx_fitMk_ARD_fitzjohnpi_20231023.R <br> halictidae_pruned_hap_and_eus_depx_fitMk_ARD_fitzjohnpi_haparrhenotoky_20231023.R <br> halictidae_pruned_hap_and_eus_depx_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_20241216.R <br> halictidae_pruned_hap_and_eus_depxy_fitMk_ARD_fitzjohnpi_20231023.R <br> halictidae_pruned_hap_and_eus_depxy_fitMk_ARD_fitzjohnpi_haparrhenotoky_20231023.R <br> halictidae_pruned_hap_and_eus_depxy_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_20241216.R <br> halictidae_pruned_hap_and_eus_depy_fitMk_ARD_fitzjohnpi_20231023.R <br> halictidae_pruned_hap_and_eus_depy_fitMk_ARD_fitzjohnpi_haparrhenotoky_20231023.R <br> halictidae_pruned_hap_and_eus_depy_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_20241216.R <br> hap_and_eus_depx_fitMk_ARD_fitzjohnpi_20231023.R <br> hap_and_eus_depx_fitMk_ARD_fitzjohnpi_hapall_euskoos_20240323.R <br> hap_and_eus_depx_fitMk_ARD_fitzjohnpi_haparrhenotoky_20231023.R <br> hap_and_eus_depx_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_20240129.R <br> hap_and_eus_depxy_fitMk_ARD_fitzjohnpi_20231023.R <br> hap_and_eus_depxy_fitMk_ARD_fitzjohnpi_hapall_euskoos_20240323.R <br> hap_and_eus_depxy_fitMk_ARD_fitzjohnpi_haparrhenotoky_20231023.R <br> hap_and_eus_depxy_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_20240129.R <br> hap_and_eus_depy_fitMk_ARD_fitzjohnpi_20231023.R <br> hap_and_eus_depy_fitMk_ARD_fitzjohnpi_hapall_euskoos_20240323.R <br> hap_and_eus_depy_fitMk_ARD_fitzjohnpi_haparrhenotoky_20231023.R <br> hap_and_eus_depy_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_20240129.R <br> results_consolidated_fulltree_hdall_eusall.R <br> results_consolidated_fulltree_hdall_euskoos.R <br> results_consolidated_fulltree_hdarrh_eusall.R <br> results_consolidated_fulltree_hdarrh_euskoos.R <br> results_consolidated_halictidae_pruned_hdall_eusall.R <br> results_consolidated_halictidae_pruned_hdarrh_eusall.R <br> results_consolidated_halictidae_pruned_hdarrh_euskoos.R <br> | **LTT** <br> lineages-through-time_plot_20240516.R <br> | **Simmap** <br> hap_and_eus_simmap_fitMk_ARD_fitzjohnpi_fulltree_20231023.R <br> hap_and_eus_simmap_fitMk_ARD_fitzjohnpi_hapall_halictidae_pruned_20240402.R <br> hap_and_eus_simmap_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_fulltree_20240402.R <br> hap_and_eus_simmap_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_halictidae_pruned.R <br> hap_and_eus_simmap_fitMk_ARD_fitzjohnpi_haparrhenotoky_fulltree_20231023.R <br> hap_and_eus_simmap_fitMk_ARD_fitzjohnpi_haparrhenotoky_halictidae_pruned_20231023.R <br> hap_and_eus_simmap_fitMk_ARD_fitzjohnpi_hdall_euskoos_fulltree_20240402.R <br> results_simmap_fitMk_ARD_fitzjohnpi_fulltree.R <br> results_simmap_fitMk_ARD_fitzjohnpi_hapall_eusall_halictidae_pruned.R <br> results_simmap_fitMk_ARD_fitzjohnpi_hapall_euskoos_fulltree.R <br> results_simmap_fitMk_ARD_fitzjohnpi_haparrh_euskoos_fulltree.R <br> results_simmap_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_halictidae_pruned.R <br> results_simmap_fitMk_ARD_fitzjohnpi_haparrhenotoky_fulltree.R <br> results_simmap_fitMk_ARD_fitzjohnpi_haparrhenotoky_halictidae_pruned.R |
-
+| **R Scripts**     | **FitPagel**  <br> halictidae_pruned_hap_and_eus_depx_fitMk_ARD_fitzjohnpi_20231023.R <br> halictidae_pruned_hap_and_eus_depx_fitMk_ARD_fitzjohnpi_haparrhenotoky_20231023.R <br> halictidae_pruned_hap_and_eus_depx_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_20241216.R <br> halictidae_pruned_hap_and_eus_depxy_fitMk_ARD_fitzjohnpi_20231023.R <br> halictidae_pruned_hap_and_eus_depxy_fitMk_ARD_fitzjohnpi_haparrhenotoky_20231023.R <br> halictidae_pruned_hap_and_eus_depxy_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_20241216.R <br> halictidae_pruned_hap_and_eus_depy_fitMk_ARD_fitzjohnpi_20231023.R <br> halictidae_pruned_hap_and_eus_depy_fitMk_ARD_fitzjohnpi_haparrhenotoky_20231023.R <br> halictidae_pruned_hap_and_eus_depy_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_20241216.R <br> hap_and_eus_depx_fitMk_ARD_fitzjohnpi_20231023.R <br> hap_and_eus_depx_fitMk_ARD_fitzjohnpi_hapall_euskoos_20240323.R <br> hap_and_eus_depx_fitMk_ARD_fitzjohnpi_haparrhenotoky_20231023.R <br> hap_and_eus_depx_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_20240129.R <br> hap_and_eus_depxy_fitMk_ARD_fitzjohnpi_20231023.R <br> hap_and_eus_depxy_fitMk_ARD_fitzjohnpi_hapall_euskoos_20240323.R <br> hap_and_eus_depxy_fitMk_ARD_fitzjohnpi_haparrhenotoky_20231023.R <br> hap_and_eus_depxy_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_20240129.R <br> hap_and_eus_depy_fitMk_ARD_fitzjohnpi_20231023.R <br> hap_and_eus_depy_fitMk_ARD_fitzjohnpi_hapall_euskoos_20240323.R <br> hap_and_eus_depy_fitMk_ARD_fitzjohnpi_haparrhenotoky_20231023.R <br> hap_and_eus_depy_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_20240129.R <br> results_consolidated_fulltree_hdall_eusall.R <br> results_consolidated_fulltree_hdall_euskoos.R <br> results_consolidated_fulltree_hdarrh_eusall.R <br> results_consolidated_fulltree_hdarrh_euskoos.R <br> results_consolidated_halictidae_pruned_hdall_eusall.R <br> results_consolidated_halictidae_pruned_hdarrh_eusall.R <br> results_consolidated_halictidae_pruned_hdarrh_euskoos.R <br> **LTT** <br> lineages-through-time_plot_20240516.R <br> **Simmap** <br> hap_and_eus_simmap_fitMk_ARD_fitzjohnpi_fulltree_20231023.R <br> hap_and_eus_simmap_fitMk_ARD_fitzjohnpi_hapall_halictidae_pruned_20240402.R <br> hap_and_eus_simmap_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_fulltree_20240402.R <br> hap_and_eus_simmap_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_halictidae_pruned.R <br> hap_and_eus_simmap_fitMk_ARD_fitzjohnpi_haparrhenotoky_fulltree_20231023.R <br> hap_and_eus_simmap_fitMk_ARD_fitzjohnpi_haparrhenotoky_halictidae_pruned_20231023.R <br> hap_and_eus_simmap_fitMk_ARD_fitzjohnpi_hdall_euskoos_fulltree_20240402.R <br> results_simmap_fitMk_ARD_fitzjohnpi_fulltree.R <br> results_simmap_fitMk_ARD_fitzjohnpi_hapall_eusall_halictidae_pruned.R <br> results_simmap_fitMk_ARD_fitzjohnpi_hapall_euskoos_fulltree.R <br> results_simmap_fitMk_ARD_fitzjohnpi_haparrh_euskoos_fulltree.R <br> results_simmap_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_halictidae_pruned.R <br> results_simmap_fitMk_ARD_fitzjohnpi_haparrhenotoky_fulltree.R <br> results_simmap_fitMk_ARD_fitzjohnpi_haparrhenotoky_halictidae_pruned.R |
 
 ---
 ### Software
