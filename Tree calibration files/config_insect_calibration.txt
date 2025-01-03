@@ -1,0 +1,97 @@
+#see https://arxiv.org/ftp/arxiv/papers/2008/2008.07054.pdf
+#see https://github.com/blackrim/treePL/wiki
+
+
+#[input ML tree]
+treefile = 
+
+#[general commands]
+numsites = 
+nthreads = 10
+thorough
+log_pen
+
+#[calibrations]
+mrca = Calibration_1 Ceylonosticta_austeni Neopetalia_punctata
+min = Calibration_1 228
+max = Calibration_1 479
+mrca = Calibration_2 Strophopteryx_fasciata Riekoperla_tuberculata
+min = Calibration_2 160.7
+max = Calibration_2 479
+mrca = Calibration_3 Hoplandrothrips_quadriconus Phaulothrips_inquilinus
+min = Calibration_3 124.2
+max = Calibration_3 479
+mrca = Calibration_4 Hoplandrothrips_quadriconus Dactuliothrips_boharti
+min = Calibration_4 222
+max = Calibration_4 479
+mrca = Calibration_5 Euxiphydria_potanini Megalodontes_capitalatus
+min = Calibration_5 228
+max = Calibration_5 479
+mrca = Calibration_6 Paraponera_clavata Melissotarsus_beccarii
+min = Calibration_6 91.8
+max = Calibration_6 479
+mrca = Calibration_7 Apis_andreniformis Apis_mellifera
+min = Calibration_7 25.7
+max = Calibration_7 479
+mrca = Calibration_8 Sialis_hamata Neochauliodes_rotundatus
+min = Calibration_8 160.7
+max = Calibration_8 479
+mrca = Calibration_9 Lertha_barbara Semidalis_vicina
+min = Calibration_9 253.1
+max = Calibration_9 479
+mrca = Calibration_10 Sphaerius_acaroides Aaaba_fossicollis
+min = Calibration_10 228
+max = Calibration_10 479
+mrca = Calibration_11 Orectochilus_villosus Aspidytes_niobe
+min = Calibration_11 213.5
+max = Calibration_11 479
+mrca = Calibration_12 Xenos_vesparum Mengenilla_moldrzyki
+min = Calibration_12 99.9
+max = Calibration_12 479
+mrca = Calibration_13 Paederus_fuscipes Aclypea_opaca
+min = Calibration_13 222
+max = Calibration_13 479
+mrca = Calibration_14 Epimartyria_bimaculella Zealandopterix_zonodoxa
+min = Calibration_14 124.2
+max = Calibration_14 479
+mrca = Calibration_15 Xenopsylla_cheopis Neopsylla_sellaris
+min = Calibration_15 160.7
+max = Calibration_15 479
+mrca = Calibration_16 Toxorhynchites_gravelyi Anopheles_homunculus
+min = Calibration_16 99.9
+max = Calibration_16 479
+mrca = Calibration_17 Forficula_auricularia Euborellia_arcanum
+min = Calibration_17 160.7
+max = Calibration_17 479
+mrca = Calibration_18 Agathemera_elegans Timema_poppensis
+min = Calibration_18 99.9
+max = Calibration_18 479
+
+#[Priming command]
+prime
+
+#[Best optimisation parameters]
+#opt = 3
+#optad = 3
+#optcvad = 5
+
+moredetail
+moredetailad
+
+#[Cross-validation analysis]
+#randomcv
+#cviter = 2
+#cvsimaniter = 1000000000
+#cvstart = 100000
+#cvstop = 1e-09
+#cvmultstep = 0.1
+#cvoutfile = 
+#moredetailcvad
+#randomcviter = 10
+
+#[Best smoothing value]
+#smooth= 1e-09
+
+#[Output file of dating step]
+#outfile = 
+#cvoutfile = 
