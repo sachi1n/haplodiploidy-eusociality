@@ -1,7 +1,7 @@
 ## Haplodiploidy alone does not predict the evolution of eusociality
 
 ### Reference Information
-This is the README file for the dataset associated with the manuscript "Eusociality evolved at a much higher rate in haplodiploid insects". This file uses Markdown syntax and has a .md extension
+This is the README file for the dataset associated with the manuscript "Haplodiploidy alone does not predict the evolution of eusociality". This file uses Markdown syntax and has a .md extension
 
 ---
 ### General details of this README
@@ -10,7 +10,7 @@ This is the README file for the dataset associated with the manuscript "Eusocial
 * **Author:** Sachin Suresh
 * **Contributors:** Timothy A. Linksvayer
 * **Date created:** 01/01/2025 (mm/dd/yyyy)
-* **Date modified:** 01/02/2025 (mm/dd/yyyy)
+* **Date modified:** 02/27/2026 (mm/dd/yyyy)
 ---
 ### Dataset Version and Release History
 
@@ -19,13 +19,13 @@ This is the README file for the dataset associated with the manuscript "Eusocial
 ---
 ### Dataset Attribution and Usage
 
-* **Dataset Title:** Data for the manuscript 'Eusociality evolved at a much higher rate in haplodiploid insects'
+* **Dataset Title:** Data for the manuscript 'Haplodiploidy alone does not predict the evolution of eusociality'
 * **Dataset collection and contribution:** Sachin Suresh
 * **License:** CC0 1.0 Universal (CC0 1.0)
 * **Dataset usage:** The authors sincerely request the researchers to reach out for re-using this dataset (https://creativecommons.org/publicdomain/zero/1.0/)
 * **Dataset citation:**
 
-    > Sachin Suresh, Timothy A. Linksvayer. 2025. Data for the article 'Eusociality evolved at a much higher rate in haplodiploid insects'
+    > Sachin Suresh, Timothy A. Linksvayer. 2025. Data for the article 'Haplodiploidy alone does not predict the evolution of eusociality'
 ---
 ### Contact Information
   * Name: Sachin Suresh (Ph.D. student) (corresponding author)
