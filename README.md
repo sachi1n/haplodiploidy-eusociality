@@ -1,4 +1,4 @@
-## Eusociality evolved at a much higher rate in haplodiploid insects
+## Haplodiploidy alone does not predict the evolution of eusociality
 
 ### Reference Information
 This is the README file for the dataset associated with the manuscript "Eusociality evolved at a much higher rate in haplodiploid insects". This file uses Markdown syntax and has a .md extension
