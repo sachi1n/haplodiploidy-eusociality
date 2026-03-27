@@ -7,8 +7,8 @@ This is the README file for the dataset associated with the manuscript "Haplodip
 ### General details of this README
 
 * **File name:** README(.md)
-* **Author:** Sachin Suresh
-* **Contributors:** Timothy A. Linksvayer
+* **Author(s):** Sachin Suresh
+* **Contributor(s):** Timothy A. Linksvayer
 * **Date created:** 01/01/2025 (mm/dd/yyyy)
 * **Date modified:** 02/27/2026 (mm/dd/yyyy)
 ---
@@ -21,6 +21,8 @@ This is the README file for the dataset associated with the manuscript "Haplodip
 
 * **Dataset Title:** Data for the manuscript 'Haplodiploidy alone does not predict the evolution of eusociality'
 * **Dataset collection and contribution:** Sachin Suresh
+* **Dataset Title:** Data for the manuscript 'Eusociality evolved at a much higher rate in haplodiploid insects'
+* **Dataset collection and contribution:** Sachin Suresh, Timothy A. Linksvayer
 * **License:** CC0 1.0 Universal (CC0 1.0)
 * **Dataset usage:** The authors sincerely request the researchers to reach out for re-using this dataset (https://creativecommons.org/publicdomain/zero/1.0/)
 * **Dataset citation:**
@@ -172,6 +174,68 @@ This work received partial support from National Science Foundation (IOS 2128304
   - **entry name:** Contributor's name for the entry.
   - **entry email:** Contributor's email for the entry.
   - **citation:** Citation for the source of the data.
+  
+  
+### 6) halictidae_pruned_processed_pheno_df_2020.csv
+- **Description:** A comma-delimited file containing data on sociality and ploidy of insects used for phylogenetic comparative analyses. This dataset is derived from the full insect phenotype dataset but modified for analyses based on the **Chesters (2020) phylogeny**, where the Halictidae family is pruned to enforce only two origins of eusociality. The dataset includes taxonomic information and multiple classifications of sociality and haplodiploidy used for sensitivity analyses of trait evolution.
+- **File path:** /Data files/Trait data files/halictidae_pruned_processed_pheno_df_2020.csv
+- **Format(s):** `.csv`
+- **Size:** 11,385.2 KB
+- **Dimensions:** 68,482 rows × 13 columns
+- **Variables:**
+  - **Unnamed: 0:** Index column generated during data export.
+  - **name:** Full taxonomic name of the species.
+  - **genus:** The genus to which the species belongs.
+  - **species:** The specific epithet of the species.
+  - **order:** The taxonomic order of the species.
+  - **family:** The taxonomic family of the species.
+  - **sociality:** The social organization type of the species (e.g., solitary, eusocial).
+  - **haplodiploidy:** Ploidy type (e.g., arrhenotoky, paternal genome elimination, diploid).
+  - **HD.arrhenotoky:** Stricter classification of haplodiploidy where only "arrhenotoky" is considered haplodiploid ("HD"), and all other states are classified as diploid ("DD").
+  - **HD.all:** Broader classification of haplodiploidy where "arrhenotoky" and "paternal genome elimination" are considered haplodiploid ("HD"), and all other states are classified as diploid ("DD").
+  - **Eusocial:** Classification of eusociality based on [Wilson (1971)](https://www.hup.harvard.edu/books/9780674454903).
+  - **Eusocial.strict:** Strict classification of eusociality based on [Boomsma and Gawne (2018)](https://onlinelibrary.wiley.com/doi/full/10.1111/brv.12330).
+  - **Eus.strict.koos.gawne:** Alternative strict classification of eusociality based on the criteria outlined by Koos and Gawne.
+
+### 7) pheno_processed_df_2020_20250626.csv
+- **Description:** A comma-delimited file containing processed phenotype data on sociality and ploidy for insect taxa used in the phylogenetic comparative analyses in this study. This dataset corresponds to the full trait dataset aligned with the **Chesters (2020) insect phylogeny** and includes taxonomic metadata and multiple classifications of social organization and ploidy used to test the evolutionary relationship between eusociality and haplodiploidy.
+- **File path:** /Data files/Trait data files/pheno_processed_df_2020_20250626.csv
+- **Format(s):** `.csv`
+- **Size:** 7,929.9 KB
+- **Dimensions:** 68,886 rows × 12 columns
+- **Variables:**
+  - **name:** Full taxonomic name of the species.
+  - **genus:** The genus to which the species belongs.
+  - **species:** The specific epithet of the species.
+  - **order:** The taxonomic order of the species.
+  - **family:** The taxonomic family of the species.
+  - **sociality:** The social organization type of the species (e.g., solitary, eusocial).
+  - **haplodiploidy:** Ploidy type (e.g., arrhenotoky, paternal genome elimination, diploid).
+  - **HD.arrhenotoky:** Stricter classification of haplodiploidy where only "arrhenotoky" is considered haplodiploid ("HD"), and all other states are classified as diploid ("DD").
+  - **HD.all:** Broader classification of haplodiploidy where "arrhenotoky" and "paternal genome elimination" are considered haplodiploid ("HD"), and all other states are classified as diploid ("DD").
+  - **Eusocial:** Classification of eusociality based on [Wilson (1971)](https://www.hup.harvard.edu/books/9780674454903).
+  - **Eusocial.strict:** Strict classification of eusociality based on [Boomsma and Gawne (2018)](https://onlinelibrary.wiley.com/doi/full/10.1111/brv.12330).
+  - **Eus.strict.koos.gawne:** Alternative strict classification of eusociality based on the criteria outlined by Koos and Gawne.
+
+### 8) tip_labels_insect_tree_pruned_2020_1000sp_eus_added.csv
+- **Description:** A comma-delimited file containing taxonomic and trait information for the tip labels present in the pruned insect phylogeny used in the analysis. The dataset includes approximately 1,000 species retained after pruning the full phylogeny, along with their associated sociality and ploidy classifications. These data were used to map trait states onto the phylogeny for downstream comparative analyses.
+- **File path:** /Data files/Trait data files/tip_labels_insect_tree_pruned_2020_1000sp_eus_added.csv
+- **Format(s):** `.csv`
+- **Size:** 138.4 KB
+- **Dimensions:** 1,002 rows × 12 columns
+- **Variables:**
+  - **label:** Species name corresponding to the tip labels in the pruned phylogenetic tree.
+  - **genus:** The genus to which the species belongs.
+  - **species:** The specific epithet of the species.
+  - **order:** The taxonomic order of the species.
+  - **family:** The taxonomic family of the species.
+  - **sociality:** The social organization type of the species (e.g., solitary, eusocial).
+  - **haplodiploidy:** Ploidy type (e.g., arrhenotoky, paternal genome elimination, diploid).
+  - **HD.arrhenotoky:** Stricter classification of haplodiploidy where only "arrhenotoky" is considered haplodiploid ("HD"), and all other states are classified as diploid ("DD").
+  - **HD.all:** Broader classification of haplodiploidy where "arrhenotoky" and "paternal genome elimination" are considered haplodiploid ("HD"), and all other states are classified as diploid ("DD").
+  - **Eusocial:** Classification of eusociality based on [Wilson (1971)](https://www.hup.harvard.edu/books/9780674454903).
+  - **Eusocial.strict:** Strict classification of eusociality based on [Boomsma and Gawne (2018)](https://onlinelibrary.wiley.com/doi/full/10.1111/brv.12330).
+  - **Eus.strict.koos.gawne:** Alternative strict classification of eusociality based on the criteria outlined by Koos and Gawne.
 
 
 ### 6) halictidae_pruned_insect_phylogeny_2017_collapsed_calibrated.tre 
