@@ -10,12 +10,12 @@ This is the README file for the dataset associated with the manuscript "Haplodip
 * **Author(s):** Sachin Suresh
 * **Contributor(s):** Timothy A. Linksvayer
 * **Date created:** 01/01/2025 (mm/dd/yyyy)
-* **Date modified:** 02/27/2026 (mm/dd/yyyy)
+* **Date modified:** 03/29/2026 (mm/dd/yyyy)
 ---
 ### Dataset Version and Release History
 
 * **Version number:** 1.0.0
-* **Date:** 01/01/2025 (mm/dd/yyyy)
+* **Date:** 03/29/2026 (mm/dd/yyyy)
 ---
 ### Dataset Attribution and Usage
 
@@ -238,49 +238,49 @@ This work received partial support from National Science Foundation (IOS 2128304
   - **Eus.strict.koos.gawne:** Alternative strict classification of eusociality based on the criteria outlined by Koos and Gawne.
 
 
-### 6) halictidae_pruned_insect_phylogeny_2017_collapsed_calibrated.tre 
+### 9) halictidae_pruned_insect_phylogeny_2017_collapsed_calibrated.tre 
 - **Description:** A phylogenetic tree (.tre) file modified from [Chesters (2017)](https://academic.oup.com/sysbio/article/66/3/426/2684526) used for phylogenetic analysis in this manuscript. This file is used in analysis where the Halictidae family is pruned to "force" only two origins of eusociality.   
 - **File path:** /Data files/Tree files/halictidae_pruned_insect_phylogeny_2017_collapsed_calibrated.tre
 - **Format(s):** `.tre`  
 - **Size:** 1913 KB 
 
 
-### 7) insect_phylogeny_2017_collapsed_calibrated.tre
+### 10) insect_phylogeny_2017_collapsed_calibrated.tre
 - **Description:** A phylogenetic tree (.tre) file modified from [Chesters (2017)](https://academic.oup.com/sysbio/article/66/3/426/2684526) used for phylogenetic analysis in this manuscript.   
 - **File path:** /Data files/Tree files/insect_phylogeny_2017_collapsed_calibrated.tre
 - **Format(s):** `.tre`  
 - **Size:** 1931 KB 
 
 
-### 8) insect_phylogeny_2017_collapsed_calibrated_trimmed_1000sp_eus_added_castor.tre
+### 11) insect_phylogeny_2017_collapsed_calibrated_trimmed_1000sp_eus_added_castor.tre
 - **Description:** A phylogenetic tree (.tre) file modified from [Chesters (2017)](https://academic.oup.com/sysbio/article/66/3/426/2684526) used for phylogenetic analysis in this manuscript.   
 - **File path:** /Data files/Tree files/insect_phylogeny_2017_collapsed_calibrated_trimmed_1000sp_eus_added_castor.tre
 - **Format(s):** `.tre`  
 - **Size:** 43 KB 
 
 
-### 9) halictidae_pruned_insect_phylogeny_2020.tre
+### 12) halictidae_pruned_insect_phylogeny_2020.tre
 - **Description:** A phylogenetic tree (.tre) file derived from the insect phylogeny of [Chesters (2020)](https://resjournals.onlinelibrary.wiley.com/doi/abs/10.1111/syen.12414) and modified for use in this manuscript. In this version, the Halictidae family is pruned to constrain the dataset to two independent origins of eusociality. This tree is used for phylogenetic comparative analyses under constrained evolutionary scenarios.  
 - **File path:** /Data files/Tree files/halictidae_pruned_insect_phylogeny_2020.tre
 - **Format(s):** `.tre`  
 - **Size:** 2074 KB
 
 
-### 10) insect_phylogeny_2020_rooted_calibrated.tre
+### 13) insect_phylogeny_2020_rooted_calibrated.tre
 - **Description:** A rooted and time-calibrated phylogenetic tree (.tre) file derived from the insect phylogeny of [Chesters (2020)](https://resjournals.onlinelibrary.wiley.com/doi/abs/10.1111/syen.12414). This tree is used as the primary phylogenetic framework for comparative analyses of sociality and ploidy across insects.  
 - **File path:** /Data files/Tree files/insect_phylogeny_2020_rooted_calibrated.tre
 - **Format(s):** `.tre`  
 - **Size:** 2156 KB
 
 
-### 11) insect_phylogeny_2020_rooted_calibrated_trimmed1000sp_eus_added.tre
+### 14) insect_phylogeny_2020_rooted_calibrated_trimmed1000sp_eus_added.tre
 - **Description:** A pruned and time-calibrated phylogenetic tree (.tre) file derived from the full insect phylogeny of [Chesters (2020)](https://resjournals.onlinelibrary.wiley.com/doi/abs/10.1111/syen.12414). This tree contains a subset of approximately 1,000 species selected from the full phylogeny, with additional trait annotations for eusociality and haplodiploidy mapped to the tips. This file is used for visualization (Figure 1a in the manuscript).  
 - **File path:** /Data files/Tree files/insect_phylogeny_2020_rooted_calibrated_trimmed1000sp_eus_added.tre
 - **Format(s):** `.tre`  
 - **Size:** 48 KB
 
 
-### 9) halictidae_pruned_hap_and_eus_depx_fitMk_ARD_fitzjohnpi_20231023.R
+### 15) halictidae_pruned_hap_and_eus_depx_fitMk_ARD_fitzjohnpi_20231023.R
 - **Description:** An R script designed to test the correlated evolution of Sociality and Ploidy across the phylogeny where the Halictidae family is pruned to "force" only two origins of eusociality.. This script is optimized for streamlined analysis using the `fitPagel` function and is configured for running on the SOL HPC system at ASU. The term **depx** in the file name indicates that "sociality" is the dependent variable in the analysis.
 - **File path:** /R scripts/FitPagel/halictidae_pruned_hap_and_eus_depx_fitMk_ARD_fitzjohnpi_20231023.R
 - **Format(s):** `.R`  
@@ -305,7 +305,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Blog on `fitPagel` Quirks](http://blog.phytools.org/2016/05/fix-to-peculiar-quirk-of-fitpagel.html)
   
   
-### 10) halictidae_pruned_hap_and_eus_depx_fitMk_ARD_fitzjohnpi_haparrhenotoky_20231023.R
+### 16) halictidae_pruned_hap_and_eus_depx_fitMk_ARD_fitzjohnpi_haparrhenotoky_20231023.R
 - **Description:** An R script designed to test the correlated evolution of Sociality and Ploidy across the phylogeny where the Halictidae family is pruned to "force" only two origins of eusociality.. This script is optimized for streamlined analysis using the `fitPagel` function and is configured for running on the SOL HPC system at ASU. The term **depx** in the file name indicates that "sociality" is the dependent variable in the analysis. In this script, haplodiploidy is treated in the strict sense, using only **HD.arrhenotoky**.
 - **File path:** /R scripts/FitPagel/halictidae_pruned_hap_and_eus_depx_fitMk_ARD_fitzjohnpi_haparrhenotoky_20231023.R
 - **Format(s):** `.R`  
@@ -330,7 +330,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Blog on `fitPagel` Quirks](http://blog.phytools.org/2016/05/fix-to-peculiar-quirk-of-fitpagel.html)
   
   
-### 11) halictidae_pruned_hap_and_eus_depx_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_20241216.R
+### 17) halictidae_pruned_hap_and_eus_depx_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_20241216.R
 - **Description:** An R script designed to test the correlated evolution of Sociality and Ploidy across the phylogeny where the Halictidae family is pruned to "force" only two origins of eusociality.. This script is optimized for streamlined analysis using the `fitPagel` function and is configured for running on the SOL HPC system at ASU. The term **depx** in the file name indicates that "sociality" is the dependent variable in the analysis. In this script, haplodiploidy is treated in the strict sense, using **HD.arrhenotoky**, and eusociality is treated in the strict sense, using **Eusocial.strict**.
 - **File path:** /R scripts/FitPagel/halictidae_pruned_hap_and_eus_depx_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_20241216.R
 - **Format(s):** `.R`  
@@ -355,7 +355,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Blog on `fitPagel` Quirks](http://blog.phytools.org/2016/05/fix-to-peculiar-quirk-of-fitpagel.html)
 
 
-### 12) halictidae_pruned_hap_and_eus_depxy_fitMk_ARD_fitzjohnpi_20231023.R
+### 18) halictidae_pruned_hap_and_eus_depxy_fitMk_ARD_fitzjohnpi_20231023.R
 - **Description:** An R script designed to test the correlated evolution of Sociality and Ploidy across the phylogeny where the Halictidae family is pruned to "force" only two origins of eusociality.. This script is optimized for streamlined analysis using the `fitPagel` function and is configured for running on the SOL HPC system at ASU. The term **depxy** in the file name indicates that both "sociality" and "ploidy" are interdependent variables in the analysis.
 - **File path:** /R scripts/FitPagel/halictidae_pruned_hap_and_eus_depxy_fitMk_ARD_fitzjohnpi_20231023.R
 - **Format(s):** `.R`  
@@ -380,7 +380,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Blog on `fitPagel` Quirks](http://blog.phytools.org/2016/05/fix-to-peculiar-quirk-of-fitpagel.html)
 
 
-### 13) halictidae_pruned_hap_and_eus_depxy_fitMk_ARD_fitzjohnpi_haparrhenotoky_20231023.R
+### 19) halictidae_pruned_hap_and_eus_depxy_fitMk_ARD_fitzjohnpi_haparrhenotoky_20231023.R
 - **Description:** An R script designed to test the correlated evolution of Sociality and Ploidy across the phylogeny where the Halictidae family is pruned to "force" only two origins of eusociality.. This script is optimized for streamlined analysis using the `fitPagel` function and is configured for running on the SOL HPC system at ASU. The term **depxy** in the file name indicates that both "sociality" and "ploidy" are interdependent variables in the analysis. In this script, haplodiploidy is treated in the strict sense, using **HD.arrhenotoky**.
 - **File path:** /R scripts/FitPagel/halictidae_pruned_hap_and_eus_depxy_fitMk_ARD_fitzjohnpi_haparrhenotoky_20231023.R
 - **Format(s):** `.R`  
@@ -405,7 +405,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Blog on `fitPagel` Quirks](http://blog.phytools.org/2016/05/fix-to-peculiar-quirk-of-fitpagel.html)
   
   
-### 14) halictidae_pruned_hap_and_eus_depxy_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_20241216.R
+### 20) halictidae_pruned_hap_and_eus_depxy_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_20241216.R
 - **Description:**An R script designed to test the correlated evolution of Sociality and Ploidy across the phylogeny where the Halictidae family is pruned to "force" only two origins of eusociality.. This script is optimized for streamlined analysis using the `fitPagel` function and is configured for running on the SOL HPC system at ASU. The term **depxy** in the file name indicates that both "sociality" and "ploidy" are interdependent variables in the analysis. In this script, haplodiploidy is treated in the strict sense, using **HD.arrhenotoky**, and eusociality is treated in the strict sense, using **Eusocial.strict**.
 - **File path:** /R scripts/FitPagel/halictidae_pruned_hap_and_eus_depxy_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_20241216.R
 - **Format(s):** `.R`  
@@ -430,7 +430,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Blog on `fitPagel` Quirks](http://blog.phytools.org/2016/05/fix-to-peculiar-quirk-of-fitpagel.html)
 
 
-### 15) halictidae_pruned_hap_and_eus_depy_fitMk_ARD_fitzjohnpi_20231023.R
+### 21) halictidae_pruned_hap_and_eus_depy_fitMk_ARD_fitzjohnpi_20231023.R
 - **Description:** An R script designed to test the correlated evolution of Sociality and Ploidy across the phylogeny where the Halictidae family is pruned to "force" only two origins of eusociality.. This script is optimized for streamlined analysis using the `fitPagel` function and is configured for running on the SOL HPC system at ASU. The term **depy** in the file name indicates that "ploidy" is the dependent variable in the analysis.
 - **File path:** /R scripts/FitPagel/halictidae_pruned_hap_and_eus_depy_fitMk_ARD_fitzjohnpi_20231023.R
 - **Format(s):** `.R`  
@@ -455,7 +455,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Blog on `fitPagel` Quirks](http://blog.phytools.org/2016/05/fix-to-peculiar-quirk-of-fitpagel.html)
 
 
-### 16) halictidae_pruned_hap_and_eus_depy_fitMk_ARD_fitzjohnpi_haparrhenotoky_20231023.R
+### 22) halictidae_pruned_hap_and_eus_depy_fitMk_ARD_fitzjohnpi_haparrhenotoky_20231023.R
 - **Description:** An R script designed to test the correlated evolution of Sociality and Ploidy across the phylogeny where the Halictidae family is pruned to "force" only two origins of eusociality.. This script is optimized for streamlined analysis using the `fitPagel` function and is configured for running on the SOL HPC system at ASU. The term **depy** in the file name indicates that "ploidy" is the dependent variable in the analysis. In this script, haplodiploidy is treated in the strict sense, using **HD.arrhenotoky**.
 - **File path:** /R scripts/FitPagel/halictidae_pruned_hap_and_eus_depy_fitMk_ARD_fitzjohnpi_haparrhenotoky_20231023.R
 - **Format(s):** `.R`  
@@ -480,7 +480,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Blog on `fitPagel` Quirks](http://blog.phytools.org/2016/05/fix-to-peculiar-quirk-of-fitpagel.html)
   
   
-### 17) halictidae_pruned_hap_and_eus_depy_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_20241216.R
+### 23) halictidae_pruned_hap_and_eus_depy_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_20241216.R
 - **Description:** An R script designed to test the correlated evolution of Sociality and Ploidy across the phylogeny where the Halictidae family is pruned to "force" only two origins of eusociality.. This script is optimized for streamlined analysis using the `fitPagel` function and is configured for running on the SOL HPC system at ASU. The term **depy** in the file name indicates that "ploidy" is the dependent variable in the analysis. In this script, haplodiploidy is treated in the strict sense, using **HD.arrhenotoky**, and eusociality is treated in the strict sense, using **Eusocial.strict**.
 - **File path:** /R scripts/FitPagel/halictidae_pruned_hap_and_eus_depy_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_20241216.R
 - **Format(s):** `.R`  
@@ -505,7 +505,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Blog on `fitPagel` Quirks](http://blog.phytools.org/2016/05/fix-to-peculiar-quirk-of-fitpagel.html)
   
   
-### 18) hap_and_eus_depx_fitMk_ARD_fitzjohnpi_20231023.R
+### 24) hap_and_eus_depx_fitMk_ARD_fitzjohnpi_20231023.R
 - **Description:** An R script designed to test the correlated evolution of Sociality and Ploidy across the full phylogeny from [Chesters (2017)](https://academic.oup.com/sysbio/article/66/3/426/2684526). This script is optimized for streamlined analysis using the `fitPagel` function and is configured for running on the SOL HPC system at ASU.  The term **depx** in the file name indicates that "sociality" is the dependent variable in the analysis.
 - **File path:** /R scripts/FitPagel/hap_and_eus_depx_fitMk_ARD_fitzjohnpi_20231023.R
 - **Format(s):** `.R`  
@@ -530,7 +530,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Blog on `fitPagel` Quirks](http://blog.phytools.org/2016/05/fix-to-peculiar-quirk-of-fitpagel.html)
 
 
-### 19) hap_and_eus_depx_fitMk_ARD_fitzjohnpi_hapall_euskoos_20240323.R
+### 25) hap_and_eus_depx_fitMk_ARD_fitzjohnpi_hapall_euskoos_20240323.R
 - **Description:** An R script designed to test the correlated evolution of Sociality and Ploidy across the full phylogeny from [Chesters (2017)](https://academic.oup.com/sysbio/article/66/3/426/2684526). This script is optimized for streamlined analysis using the `fitPagel` function and is configured for running on the SOL HPC system at ASU. The term **depx** in the file name indicates that "sociality" is the dependent variable in the analysis. In this script, haplodiploidy is treated in a broad sense, using **HD.all**, and eusociality is treated in the strict sense, following [Boomsma and Gawne (2018)](https://onlinelibrary.wiley.com/doi/10.1111/brv.12330).
 - **File path:** /R scripts/FitPagel/hap_and_eus_depx_fitMk_ARD_fitzjohnpi_hapall_euskoos_20240323.R
 - **Format(s):** `.R`  
@@ -555,7 +555,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Blog on `fitPagel` Quirks](http://blog.phytools.org/2016/05/fix-to-peculiar-quirk-of-fitpagel.html)
   
   
-### 20) hap_and_eus_depx_fitMk_ARD_fitzjohnpi_haparrhenotoky_20231023.R
+### 26) hap_and_eus_depx_fitMk_ARD_fitzjohnpi_haparrhenotoky_20231023.R
 - **Description:** An R script designed to test the correlated evolution of Sociality and Ploidy across the full phylogeny from [Chesters (2017)](https://academic.oup.com/sysbio/article/66/3/426/2684526). This script is optimized for streamlined analysis using the `fitPagel` function and is configured for running on the SOL HPC system at ASU. The term **depx** in the file name indicates that "sociality" is the dependent variable in the analysis. In this script, haplodiploidy is treated in the strict sense, using **HD.arrhenotoky**.
 - **File path:** /R scripts/FitPagel/hap_and_eus_depx_fitMk_ARD_fitzjohnpi_haparrhenotoky_20231023.R
 - **Format(s):** `.R`  
@@ -580,7 +580,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Blog on `fitPagel` Quirks](http://blog.phytools.org/2016/05/fix-to-peculiar-quirk-of-fitpagel.html)
 
 
-### 21) hap_and_eus_depx_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_20240129.R
+### 27) hap_and_eus_depx_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_20240129.R
 - **Description:** An R script designed to test the correlated evolution of Sociality and Ploidy across the full phylogeny from [Chesters (2017)](https://academic.oup.com/sysbio/article/66/3/426/2684526). This script is optimized for streamlined analysis using the `fitPagel` function and is configured for running on the SOL HPC system at ASU. The term **depx** in the file name indicates that "sociality" is the dependent variable in the analysis. In this script, haplodiploidy is treated in the strict sense, using **HD.arrhenotoky**, and eusociality is treated in the strict sense, following [Boomsma and Gawne (2018)](https://onlinelibrary.wiley.com/doi/10.1111/brv.12330).
 - **File path:** /R scripts/FitPagel/hap_and_eus_depx_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_20240129.R
 - **Format(s):** `.R`  
@@ -605,7 +605,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Blog on `fitPagel` Quirks](http://blog.phytools.org/2016/05/fix-to-peculiar-quirk-of-fitpagel.html)
   
 
-### 22) hap_and_eus_depxy_fitMk_ARD_fitzjohnpi_20231023.R
+### 28) hap_and_eus_depxy_fitMk_ARD_fitzjohnpi_20231023.R
 - **Description:** An R script designed to test the correlated evolution of Sociality and Ploidy across the full phylogeny from [Chesters (2017)](https://academic.oup.com/sysbio/article/66/3/426/2684526). This script is optimized for streamlined analysis using the `fitPagel` function and is configured for running on the SOL HPC system at ASU. The term **depxy** in the file name indicates that both "sociality" and "ploidy" are interdependent variables in the analysis.
 - **File path:** /R scripts/FitPagel/hap_and_eus_depxy_fitMk_ARD_fitzjohnpi_20231023.R
 - **Format(s):** `.R`  
@@ -630,7 +630,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Blog on `fitPagel` Quirks](http://blog.phytools.org/2016/05/fix-to-peculiar-quirk-of-fitpagel.html)
 
 
-### 23) hap_and_eus_depxy_fitMk_ARD_fitzjohnpi_hapall_euskoos_20240323.R
+### 29) hap_and_eus_depxy_fitMk_ARD_fitzjohnpi_hapall_euskoos_20240323.R
 - **Description:** An R script designed to test the correlated evolution of Sociality and Ploidy across the full phylogeny from [Chesters (2017)](https://academic.oup.com/sysbio/article/66/3/426/2684526). This script is optimized for streamlined analysis using the `fitPagel` function and is configured for running on the SOL HPC system at ASU. The term **depxy** in the file name indicates that both "sociality" and "ploidy" are interdependent variables in the analysis. In this script, haplodiploidy is treated in a broad sense, using **HD.all**, and eusociality is treated in the strict sense, following [Boomsma and Gawne (2018)](https://onlinelibrary.wiley.com/doi/10.1111/brv.12330).
 - **File path:** /R scripts/FitPagel/hap_and_eus_depxy_fitMk_ARD_fitzjohnpi_hapall_euskoos_20240323.R
 - **Format(s):** `.R`  
@@ -655,7 +655,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Blog on `fitPagel` Quirks](http://blog.phytools.org/2016/05/fix-to-peculiar-quirk-of-fitpagel.html)
 
 
-### 24) hap_and_eus_depxy_fitMk_ARD_fitzjohnpi_haparrhenotoky_20231023.R
+### 30) hap_and_eus_depxy_fitMk_ARD_fitzjohnpi_haparrhenotoky_20231023.R
 - **Description:** An R script designed to test the correlated evolution of Sociality and Ploidy across the full phylogeny from [Chesters (2017)](https://academic.oup.com/sysbio/article/66/3/426/2684526). This script is optimized for streamlined analysis using the `fitPagel` function and is configured for running on the SOL HPC system at ASU. The term **depxy** in the file name indicates that both "sociality" and "ploidy" are interdependent variables in the analysis. In this script, haplodiploidy is treated in the strict sense, using **HD.arrhenotoky**.
 - **File path:** /R scripts/FitPagel/hap_and_eus_depxy_fitMk_ARD_fitzjohnpi_haparrhenotoky_20231023.R
 - **Format(s):** `.R`  
@@ -679,7 +679,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Phytools Pagel's Method Documentation](http://phytools.org/mexico2018/ex/8/Pagel94-method.html)
   - [Blog on `fitPagel` Quirks](http://blog.phytools.org/2016/05/fix-to-peculiar-quirk-of-fitpagel.html)
   
-### 25) hap_and_eus_depxy_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_20240129.R
+### 31) hap_and_eus_depxy_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_20240129.R
 - **Description:** An R script designed to test the correlated evolution of Sociality and Ploidy across the full phylogeny from [Chesters (2017)](https://academic.oup.com/sysbio/article/66/3/426/2684526). This script is optimized for streamlined analysis using the `fitPagel` function and is configured for running on the SOL HPC system at ASU. The term **depxy** in the file name indicates that both "sociality" and "ploidy" are interdependent variables in the analysis. In this script, haplodiploidy is treated in the strict sense, using **HD.arrhenotoky**, and eusociality is treated in the strict sense, following [Boomsma and Gawne (2018)](https://onlinelibrary.wiley.com/doi/10.1111/brv.12330).
 - **File path:** /R scripts/FitPagel/hap_and_eus_depxy_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_20240129.R
 - **Format(s):** `.R`  
@@ -704,7 +704,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Blog on `fitPagel` Quirks](http://blog.phytools.org/2016/05/fix-to-peculiar-quirk-of-fitpagel.html)
 
 
-### 26) hap_and_eus_depy_fitMk_ARD_fitzjohnpi_20231023.R
+### 32) hap_and_eus_depy_fitMk_ARD_fitzjohnpi_20231023.R
 - **Description:** An R script designed to test the correlated evolution of Sociality and Ploidy across the full phylogeny from [Chesters (2017)](https://academic.oup.com/sysbio/article/66/3/426/2684526). This script is optimized for streamlined analysis using the `fitPagel` function and is configured for running on the SOL HPC system at ASU. The term **depy** in the file name indicates that "ploidy" is the dependent variable in the analysis.
 - **File path:** /R scripts/FitPagel/hap_and_eus_depy_fitMk_ARD_fitzjohnpi_20231023.R
 - **Format(s):** `.R`  
@@ -729,7 +729,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Blog on `fitPagel` Quirks](http://blog.phytools.org/2016/05/fix-to-peculiar-quirk-of-fitpagel.html)
 
 
-### 27) hap_and_eus_depy_fitMk_ARD_fitzjohnpi_hapall_euskoos_20240323.R
+### 33) hap_and_eus_depy_fitMk_ARD_fitzjohnpi_hapall_euskoos_20240323.R
 - **Description:** An R script designed to test the correlated evolution of Sociality and Ploidy across the full phylogeny from [Chesters (2017)](https://academic.oup.com/sysbio/article/66/3/426/2684526). This script is optimized for streamlined analysis using the `fitPagel` function and is configured for running on the SOL HPC system at ASU. The term **depy** in the file name indicates that "ploidy" is the dependent variable in the analysis. In this script, haplodiploidy is treated in a broad sense, using **HD.all**, and eusociality is treated in the strict sense, following [Boomsma and Gawne (2018)](https://onlinelibrary.wiley.com/doi/10.1111/brv.12330).
 - **File path:** /R scripts/FitPagel/hap_and_eus_depy_fitMk_ARD_fitzjohnpi_hapall_euskoos_20240323.R
 - **Format(s):** `.R`  
@@ -754,7 +754,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Blog on `fitPagel` Quirks](http://blog.phytools.org/2016/05/fix-to-peculiar-quirk-of-fitpagel.html)
 
 
-### 28) hap_and_eus_depy_fitMk_ARD_fitzjohnpi_haparrhenotoky_20231023.R
+### 34) hap_and_eus_depy_fitMk_ARD_fitzjohnpi_haparrhenotoky_20231023.R
 - **Description:** An R script designed to test the correlated evolution of Sociality and Ploidy across the full phylogeny from [Chesters (2017)](https://academic.oup.com/sysbio/article/66/3/426/2684526). This script is optimized for streamlined analysis using the `fitPagel` function and is configured for running on the SOL HPC system at ASU. The term **depy** in the file name indicates that "ploidy" is the dependent variable in the analysis. In this script, haplodiploidy is treated in the strict sense, using **HD.arrhenotoky**.
 - **File path:** /R scripts/FitPagel/hap_and_eus_depy_fitMk_ARD_fitzjohnpi_haparrhenotoky_20231023.R
 - **Format(s):** `.R`  
@@ -779,7 +779,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Blog on `fitPagel` Quirks](http://blog.phytools.org/2016/05/fix-to-peculiar-quirk-of-fitpagel.html)
 
 
-### 29) hap_and_eus_depy_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_20240129.R
+### 35) hap_and_eus_depy_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_20240129.R
 - **Description:** An R script designed to test the correlated evolution of Sociality and Ploidy across the full phylogeny from [Chesters (2017)](https://academic.oup.com/sysbio/article/66/3/426/2684526). This script is optimized for streamlined analysis using the `fitPagel` function and is configured for running on the SOL HPC system at ASU. The term **depy** in the file name indicates that "ploidy" is the dependent variable in the analysis. In this script, haplodiploidy is treated in the strict sense, using **HD.arrhenotoky**, and eusociality is treated in the strict sense, following [Boomsma and Gawne (2018)](https://onlinelibrary.wiley.com/doi/10.1111/brv.12330).
 - **File path:** /R scripts/FitPagel/hap_and_eus_depy_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_20240129.R
 - **Format(s):** `.R`  
@@ -804,7 +804,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Blog on `fitPagel` Quirks](http://blog.phytools.org/2016/05/fix-to-peculiar-quirk-of-fitpagel.html)
 
 
-### 30) results_consolidated_fulltree_hdall_eusall.R
+### 36) results_consolidated_fulltree_hdall_eusall.R
 - **Description:** An R script designed to consolidate and analyze the results of `fitPagel` runs across the full phylogeny from [Chesters (2017)](https://academic.oup.com/sysbio/article/66/3/426/2684526). The script focuses on testing evolutionary correlations between Sociality and Ploidy using multiple dependency models (**depx**, **depy**, and **depxy**) and applies model comparison techniques to identify the best-fit model.
 - **File path:** /R scripts/FitPagel/results_consolidated_fulltree_hdall_eusall.R
 - **Format(s):** `.R`  
@@ -834,7 +834,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Chesters (2017) Phylogeny Source](https://academic.oup.com/sysbio/article/66/3/426/2684526)
 
 
-### 31) results_consolidated_fulltree_hdall_euskoos.R
+### 37) results_consolidated_fulltree_hdall_euskoos.R
 - **Description:** An R script designed to consolidate and analyze the results of `fitPagel` runs across the full phylogeny from [Chesters (2017)](https://academic.oup.com/sysbio/article/66/3/426/2684526). The script focuses on testing evolutionary correlations between Sociality and Ploidy using multiple dependency models (**depx**, **depy**, and **depxy**) and applies model comparison techniques to identify the best-fit model. In this analysis, haplodiploidy is treated in a broad sense (**HD.all**), and eusociality is treated in a strict sense (**Eus.strict**).
 - **File path:** /R scripts/FitPagel/results_consolidated_fulltree_hdall_euskoos.R
 - **Format(s):** `.R`  
@@ -863,7 +863,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Boomsma and Gawne (2018) Eusociality](https://onlinelibrary.wiley.com/doi/10.1111/brv.12330)
 
 
-### 32) results_consolidated_fulltree_hdarrh_eusall.R
+### 38) results_consolidated_fulltree_hdarrh_eusall.R
 - **Description:** An R script designed to consolidate and analyze the results of `fitPagel` runs across the full phylogeny from [Chesters (2017)](https://academic.oup.com/sysbio/article/66/3/426/2684526). The script focuses on testing evolutionary correlations between Sociality and Ploidy using multiple dependency models (**depx**, **depy**, and **depxy**) and applies model comparison techniques to identify the best-fit model. In this analysis, haplodiploidy is treated in the strict sense (**HD.arrhenotoky**), and eusociality is treated in a broad sense (**Eus.all**).
 - **File path:** /R scripts/FitPagel/results_consolidated_fulltree_hdarrh_eusall.R
 - **Format(s):** `.R`  
@@ -891,7 +891,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Chesters (2017) Phylogeny Source](https://academic.oup.com/sysbio/article/66/3/426/2684526)
 
 
-### 33) results_consolidated_fulltree_hdarrh_euskoos.R
+### 39) results_consolidated_fulltree_hdarrh_euskoos.R
 - **Description:** An R script designed to consolidate and analyze the results of `fitPagel` runs across the full phylogeny from [Chesters (2017)](https://academic.oup.com/sysbio/article/66/3/426/2684526). The script focuses on testing evolutionary correlations between Sociality and Ploidy using multiple dependency models (**depx**, **depy**, and **depxy**) and applies model comparison techniques to identify the best-fit model. In this analysis, haplodiploidy is treated in the strict sense (**HD.arrhenotoky**), and eusociality is treated in the strict sense (**EusKoos**) based on [Boomsma and Gawne (2018)](https://onlinelibrary.wiley.com/doi/10.1111/brv.12330).
 - **File path:** /R scripts/FitPagel/results_consolidated_fulltree_hdarrh_euskoos.R
 - **Format(s):** `.R`  
@@ -920,7 +920,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Boomsma and Gawne (2018) Eusociality](https://onlinelibrary.wiley.com/doi/10.1111/brv.12330)
 
 
-### 34) results_consolidated_halictidae_pruned_hdall_eusall.R
+### 40) results_consolidated_halictidae_pruned_hdall_eusall.R
 - **Description:** An R script designed to consolidate and analyze the results of `fitPagel` runs on phylogeny from [Chesters (2017)](https://academic.oup.com/sysbio/article/66/3/426/2684526).to test the evolutionary correlation between Sociality and Ploidy. The Halictidae clade is pruned to enforce two origins of eusociality in this analysis. In this script, haplodiploidy is treated in a broad sense (**HD.all**), and eusociality is treated in a broad sense (**Eus.all**).
 - **File path:** /R scripts/FitPagel/results_consolidated_halictidae_pruned_hdall_eusall.R
 - **Format(s):** `.R`  
@@ -949,7 +949,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Chesters (2017) Phylogeny Source](https://academic.oup.com/sysbio/article/66/3/426/2684526)
 
 
-### 35) results_consolidated_halictidae_pruned_hdarrh_eusall.R
+### 41) results_consolidated_halictidae_pruned_hdarrh_eusall.R
 - **Description:** An R script designed to consolidate and analyze the results of `fitPagel` runs on phylogeny from [Chesters (2017)](https://academic.oup.com/sysbio/article/66/3/426/2684526).to test the evolutionary correlation between Sociality and Ploidy. The Halictidae clade is pruned to enforce two origins of eusociality in this analysis. In this script, haplodiploidy is treated in the strict sense (**HD.arrhenotoky**), and eusociality is treated in a broad sense (**Eus.all**).
 - **File path:** /R scripts/FitPagel/results_consolidated_halictidae_pruned_hdarrh_eusall.R
 - **Format(s):** `.R`  
@@ -978,7 +978,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Chesters (2017) Phylogeny Source](https://academic.oup.com/sysbio/article/66/3/426/2684526)
 
 
-### 36) results_consolidated_halictidae_pruned_hdarrh_euskoos.R
+### 42) results_consolidated_halictidae_pruned_hdarrh_euskoos.R
 - **Description:** An R script designed to consolidate and analyze the results of `fitPagel` runs on phylogeny from [Chesters (2017)](https://academic.oup.com/sysbio/article/66/3/426/2684526).to test the evolutionary correlation between Sociality and Ploidy. The Halictidae clade is pruned to enforce two origins of eusociality in this analysis. In this script, haplodiploidy is treated in the strict sense (**HD.arrhenotoky**), and eusociality is treated in the strict sense (**EusKoos**) based on [Boomsma and Gawne (2018)](https://onlinelibrary.wiley.com/doi/10.1111/brv.12330).
 - **File path:** /R scripts/FitPagel/results_consolidated_halictidae_pruned_hdarrh_euskoos.R
 - **Format(s):** `.R`  
@@ -1008,7 +1008,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Boomsma and Gawne (2018) Eusociality](https://onlinelibrary.wiley.com/doi/10.1111/brv.12330)
 
 
-### 10) halictidae_pruned_hap_and_eus_depx_fitMk_ARD_fitzjohnpi_2020_20251001.R
+### 43) halictidae_pruned_hap_and_eus_depx_fitMk_ARD_fitzjohnpi_2020_20251001.R
 - **Description:** An R script designed to test the correlated evolution of Sociality and Ploidy across the phylogeny where the Halictidae family is pruned to "force" only two origins of eusociality. This script is optimized for streamlined analysis using the `fitPagel` function and is configured for running on the SOL HPC system at ASU. The term **depx** in the file name indicates that "sociality" is the dependent variable in the analysis. 
 - **File path:** /R scripts/FitPagel/halictidae_pruned_hap_and_eus_depx_fitMk_ARD_fitzjohnpi_2020_20251001.R
 - **Format(s):** `.R`  
@@ -1032,7 +1032,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Phytools Pagel's Method Documentation](http://phytools.org/mexico2018/ex/8/Pagel94-method.html)
   - [Blog on `fitPagel` Quirks](http://blog.phytools.org/2016/05/fix-to-peculiar-quirk-of-fitpagel.html)
 
-### 11) halictidae_pruned_hap_and_eus_depx_fitMk_ARD_fitzjohnpi_haparrhenotoky_2020_20251001.R
+### 44) halictidae_pruned_hap_and_eus_depx_fitMk_ARD_fitzjohnpi_haparrhenotoky_2020_20251001.R
 - **Description:** An R script designed to test the correlated evolution of Sociality and Ploidy across the phylogeny where the Halictidae family is pruned to "force" only two origins of eusociality. This script is optimized for streamlined analysis using the `fitPagel` function and is configured for running on the SOL HPC system at ASU. The term **depx** in the file name indicates that "sociality" is the dependent variable in the analysis. In this script, haplodiploidy is treated in the strict sense, using only **HD.arrhenotoky**.
 - **File path:** /R scripts/FitPagel/halictidae_pruned_hap_and_eus_depx_fitMk_ARD_fitzjohnpi_haparrhenotoky_2020_20251001.R
 - **Format(s):** `.R`  
@@ -1056,7 +1056,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Phytools Pagel's Method Documentation](http://phytools.org/mexico2018/ex/8/Pagel94-method.html)
   - [Blog on `fitPagel` Quirks](http://blog.phytools.org/2016/05/fix-to-peculiar-quirk-of-fitpagel.html)
 
-### 12) halictidae_pruned_hap_and_eus_depx_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_2020_20251001.R
+### 45) halictidae_pruned_hap_and_eus_depx_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_2020_20251001.R
 - **Description:** An R script designed to test the correlated evolution of Sociality and Ploidy across the phylogeny where the Halictidae family is pruned to "force" only two origins of eusociality. This script is optimized for streamlined analysis using the `fitPagel` function and is configured for running on the SOL HPC system at ASU. The term **depx** in the file name indicates that "sociality" is the dependent variable in the analysis. In this script, haplodiploidy is treated in the strict sense, using **HD.arrhenotoky**, and eusociality is treated in the strict sense, using **Eusocial.strict**.
 - **File path:** /R scripts/FitPagel/halictidae_pruned_hap_and_eus_depx_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_2020_20251001.R
 - **Format(s):** `.R`  
@@ -1080,7 +1080,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Phytools Pagel's Method Documentation](http://phytools.org/mexico2018/ex/8/Pagel94-method.html)
   - [Blog on `fitPagel` Quirks](http://blog.phytools.org/2016/05/fix-to-peculiar-quirk-of-fitpagel.html)
 
-### 13) halictidae_pruned_hap_and_eus_depxy_fitMk_ARD_fitzjohnpi_2020_20251001.R
+### 46) halictidae_pruned_hap_and_eus_depxy_fitMk_ARD_fitzjohnpi_2020_20251001.R
 - **Description:** An R script designed to test the correlated evolution of Sociality and Ploidy across the phylogeny where the Halictidae family is pruned to "force" only two origins of eusociality. This script is optimized for streamlined analysis using the `fitPagel` function and is configured for running on the SOL HPC system at ASU. The term **depxy** in the file name indicates that both "sociality" and "ploidy" are interdependent variables in the analysis.
 - **File path:** /R scripts/FitPagel/halictidae_pruned_hap_and_eus_depxy_fitMk_ARD_fitzjohnpi_2020_20251001.R
 - **Format(s):** `.R`  
@@ -1104,7 +1104,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Phytools Pagel's Method Documentation](http://phytools.org/mexico2018/ex/8/Pagel94-method.html)
   - [Blog on `fitPagel` Quirks](http://blog.phytools.org/2016/05/fix-to-peculiar-quirk-of-fitpagel.html)
 
-### 14) halictidae_pruned_hap_and_eus_depxy_fitMk_ARD_fitzjohnpi_haparrhenotoky_2020_20251001.R
+### 47) halictidae_pruned_hap_and_eus_depxy_fitMk_ARD_fitzjohnpi_haparrhenotoky_2020_20251001.R
 - **Description:** An R script designed to test the correlated evolution of Sociality and Ploidy across the phylogeny where the Halictidae family is pruned to "force" only two origins of eusociality. This script is optimized for streamlined analysis using the `fitPagel` function and is configured for running on the SOL HPC system at ASU. The term **depxy** in the file name indicates that both "sociality" and "ploidy" are interdependent variables in the analysis. In this script, haplodiploidy is treated in the strict sense, using **HD.arrhenotoky**.
 - **File path:** /R scripts/FitPagel/halictidae_pruned_hap_and_eus_depxy_fitMk_ARD_fitzjohnpi_haparrhenotoky_2020_20251001.R
 - **Format(s):** `.R`  
@@ -1128,7 +1128,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Phytools Pagel's Method Documentation](http://phytools.org/mexico2018/ex/8/Pagel94-method.html)
   - [Blog on `fitPagel` Quirks](http://blog.phytools.org/2016/05/fix-to-peculiar-quirk-of-fitpagel.html)
 
-### 15) halictidae_pruned_hap_and_eus_depxy_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_2020_20251001.R
+### 48) halictidae_pruned_hap_and_eus_depxy_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_2020_20251001.R
 - **Description:** An R script designed to test the correlated evolution of Sociality and Ploidy across the phylogeny where the Halictidae family is pruned to "force" only two origins of eusociality. This script is optimized for streamlined analysis using the `fitPagel` function and is configured for running on the SOL HPC system at ASU. The term **depxy** in the file name indicates that both "sociality" and "ploidy" are interdependent variables in the analysis. In this script, haplodiploidy is treated in the strict sense, using **HD.arrhenotoky**, and eusociality is treated in the strict sense, using **Eusocial.strict**.
 - **File path:** /R scripts/FitPagel/halictidae_pruned_hap_and_eus_depxy_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_2020_20251001.R
 - **Format(s):** `.R`  
@@ -1152,7 +1152,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Phytools Pagel's Method Documentation](http://phytools.org/mexico2018/ex/8/Pagel94-method.html)
   - [Blog on `fitPagel` Quirks](http://blog.phytools.org/2016/05/fix-to-peculiar-quirk-of-fitpagel.html)
 
-### 16) halictidae_pruned_hap_and_eus_depy_fitMk_ARD_fitzjohnpi_2020_20251001.R
+### 49) halictidae_pruned_hap_and_eus_depy_fitMk_ARD_fitzjohnpi_2020_20251001.R
 - **Description:** An R script designed to test the correlated evolution of Sociality and Ploidy across the phylogeny where the Halictidae family is pruned to "force" only two origins of eusociality. This script is optimized for streamlined analysis using the `fitPagel` function and is configured for running on the SOL HPC system at ASU. The term **depy** in the file name indicates that "ploidy" is the dependent variable in the analysis.
 - **File path:** /R scripts/FitPagel/halictidae_pruned_hap_and_eus_depy_fitMk_ARD_fitzjohnpi_2020_20251001.R
 - **Format(s):** `.R`  
@@ -1176,7 +1176,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Phytools Pagel's Method Documentation](http://phytools.org/mexico2018/ex/8/Pagel94-method.html)
   - [Blog on `fitPagel` Quirks](http://blog.phytools.org/2016/05/fix-to-peculiar-quirk-of-fitpagel.html)
 
-### 17) halictidae_pruned_hap_and_eus_depy_fitMk_ARD_fitzjohnpi_haparrhenotoky_2020_20251001.R
+### 50) halictidae_pruned_hap_and_eus_depy_fitMk_ARD_fitzjohnpi_haparrhenotoky_2020_20251001.R
 - **Description:** An R script designed to test the correlated evolution of Sociality and Ploidy across the phylogeny where the Halictidae family is pruned to "force" only two origins of eusociality. This script is optimized for streamlined analysis using the `fitPagel` function and is configured for running on the SOL HPC system at ASU. The term **depy** in the file name indicates that "ploidy" is the dependent variable in the analysis. In this script, haplodiploidy is treated in the strict sense, using **HD.arrhenotoky**.
 - **File path:** /R scripts/FitPagel/halictidae_pruned_hap_and_eus_depy_fitMk_ARD_fitzjohnpi_haparrhenotoky_2020_20251001.R
 - **Format(s):** `.R`  
@@ -1200,7 +1200,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Phytools Pagel's Method Documentation](http://phytools.org/mexico2018/ex/8/Pagel94-method.html)
   - [Blog on `fitPagel` Quirks](http://blog.phytools.org/2016/05/fix-to-peculiar-quirk-of-fitpagel.html)
 
-### 18) halictidae_pruned_hap_and_eus_depy_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_2020_20251001.R
+### 51) halictidae_pruned_hap_and_eus_depy_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_2020_20251001.R
 - **Description:** An R script designed to test the correlated evolution of Sociality and Ploidy across the phylogeny where the Halictidae family is pruned to "force" only two origins of eusociality. This script is optimized for streamlined analysis using the `fitPagel` function and is configured for running on the SOL HPC system at ASU. The term **depy** in the file name indicates that "ploidy" is the dependent variable in the analysis. In this script, haplodiploidy is treated in the strict sense, using **HD.arrhenotoky**, and eusociality is treated in the strict sense, using **Eusocial.strict**.
 - **File path:** /R scripts/FitPagel/halictidae_pruned_hap_and_eus_depy_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_2020_20251001.R
 - **Format(s):** `.R`  
@@ -1224,7 +1224,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Phytools Pagel's Method Documentation](http://phytools.org/mexico2018/ex/8/Pagel94-method.html)
   - [Blog on `fitPagel` Quirks](http://blog.phytools.org/2016/05/fix-to-peculiar-quirk-of-fitpagel.html)
 
-### 19) hap_and_eus_depx_fitMk_ARD_fitzjohnpi_2020_20250626.R
+### 52) hap_and_eus_depx_fitMk_ARD_fitzjohnpi_2020_20250626.R
 - **Description:** An R script designed to test the correlated evolution of Sociality and Ploidy across the full phylogeny from [Chesters (2020)](https://resjournals.onlinelibrary.wiley.com/doi/abs/10.1111/syen.12414). This script is optimized for streamlined analysis using the `fitPagel` function and is configured for running on the SOL HPC system at ASU. The term **depx** in the file name indicates that "sociality" is the dependent variable in the analysis.
 - **File path:** /R scripts/FitPagel/hap_and_eus_depx_fitMk_ARD_fitzjohnpi_2020_20250626.R
 - **Format(s):** `.R`  
@@ -1248,7 +1248,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Phytools Pagel's Method Documentation](http://phytools.org/mexico2018/ex/8/Pagel94-method.html)
   - [Blog on `fitPagel` Quirks](http://blog.phytools.org/2016/05/fix-to-peculiar-quirk-of-fitpagel.html)
 
-  ### 27) hap_and_eus_depx_fitMk_ARD_fitzjohnpi_hapall_euskoos_2020_20250625.R
+  ### 53) hap_and_eus_depx_fitMk_ARD_fitzjohnpi_hapall_euskoos_2020_20250625.R
 - **Description:** An R script designed to test the correlated evolution of Sociality and Ploidy across the full phylogeny from [Chesters (2020)](https://resjournals.onlinelibrary.wiley.com/doi/abs/10.1111/syen.12414). This script is optimized for streamlined analysis using the `fitPagel` function and is configured for running on the SOL HPC system at ASU. The term **depx** in the file name indicates that "sociality" is the dependent variable in the analysis. In this script, haplodiploidy is treated in a broad sense, using **HD.all**, and eusociality is treated in the strict sense, following [Boomsma and Gawne (2018)](https://onlinelibrary.wiley.com/doi/10.1111/brv.12330).
 - **File path:** /R scripts/FitPagel/hap_and_eus_depx_fitMk_ARD_fitzjohnpi_hapall_euskoos_2020_20250625.R
 - **Format(s):** `.R`  
@@ -1272,7 +1272,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Phytools Pagel's Method Documentation](http://phytools.org/mexico2018/ex/8/Pagel94-method.html)
   - [Blog on `fitPagel` Quirks](http://blog.phytools.org/2016/05/fix-to-peculiar-quirk-of-fitpagel.html)
 
-### 28) hap_and_eus_depy_fitMk_ARD_fitzjohnpi_hapall_euskoos_2020_20250625.R
+### 54) hap_and_eus_depy_fitMk_ARD_fitzjohnpi_hapall_euskoos_2020_20250625.R
 - **Description:** An R script designed to test the correlated evolution of Sociality and Ploidy across the full phylogeny from [Chesters (2020)](https://resjournals.onlinelibrary.wiley.com/doi/abs/10.1111/syen.12414). This script is optimized for streamlined analysis using the `fitPagel` function and is configured for running on the SOL HPC system at ASU. The term **depy** in the file name indicates that "ploidy" is the dependent variable in the analysis. In this script, haplodiploidy is treated in a broad sense, using **HD.all**, and eusociality is treated in the strict sense, following [Boomsma and Gawne (2018)](https://onlinelibrary.wiley.com/doi/10.1111/brv.12330).
 - **File path:** /R scripts/FitPagel/hap_and_eus_depy_fitMk_ARD_fitzjohnpi_hapall_euskoos_2020_20250625.R
 - **Format(s):** `.R`  
@@ -1296,7 +1296,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Phytools Pagel's Method Documentation](http://phytools.org/mexico2018/ex/8/Pagel94-method.html)
   - [Blog on `fitPagel` Quirks](http://blog.phytools.org/2016/05/fix-to-peculiar-quirk-of-fitpagel.html)
 
-### 29) hap_and_eus_depxy_fitMk_ARD_fitzjohnpi_hapall_euskoos_2020_20250625.R
+### 55) hap_and_eus_depxy_fitMk_ARD_fitzjohnpi_hapall_euskoos_2020_20250625.R
 - **Description:** An R script designed to test the correlated evolution of Sociality and Ploidy across the full phylogeny from [Chesters (2020)](https://resjournals.onlinelibrary.wiley.com/doi/abs/10.1111/syen.12414). This script is optimized for streamlined analysis using the `fitPagel` function and is configured for running on the SOL HPC system at ASU. The term **depxy** in the file name indicates that both "sociality" and "ploidy" are interdependent variables in the analysis. In this script, haplodiploidy is treated in a broad sense, using **HD.all**, and eusociality is treated in the strict sense, following [Boomsma and Gawne (2018)](https://onlinelibrary.wiley.com/doi/10.1111/brv.12330).
 - **File path:** /R scripts/FitPagel/hap_and_eus_depxy_fitMk_ARD_fitzjohnpi_hapall_euskoos_2020_20250625.R
 - **Format(s):** `.R`  
@@ -1320,7 +1320,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Phytools Pagel's Method Documentation](http://phytools.org/mexico2018/ex/8/Pagel94-method.html)
   - [Blog on `fitPagel` Quirks](http://blog.phytools.org/2016/05/fix-to-peculiar-quirk-of-fitpagel.html)
 
-### 30) hap_and_eus_depx_fitMk_ARD_fitzjohnpi_haparrhenotoky__2020_20250625.R
+### 56) hap_and_eus_depx_fitMk_ARD_fitzjohnpi_haparrhenotoky__2020_20250625.R
 - **Description:** An R script designed to test the correlated evolution of Sociality and Ploidy across the full phylogeny from [Chesters (2020)](https://resjournals.onlinelibrary.wiley.com/doi/abs/10.1111/syen.12414). This script is optimized for streamlined analysis using the `fitPagel` function and is configured for running on the SOL HPC system at ASU. The term **depx** in the file name indicates that "sociality" is the dependent variable in the analysis. In this script, haplodiploidy is treated in the strict sense, using **HD.arrhenotoky**.
 - **File path:** /R scripts/FitPagel/hap_and_eus_depx_fitMk_ARD_fitzjohnpi_haparrhenotoky__2020_20250625.R
 - **Format(s):** `.R`  
@@ -1344,7 +1344,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Phytools Pagel's Method Documentation](http://phytools.org/mexico2018/ex/8/Pagel94-method.html)
   - [Blog on `fitPagel` Quirks](http://blog.phytools.org/2016/05/fix-to-peculiar-quirk-of-fitpagel.html)
 
-### 31) hap_and_eus_depy_fitMk_ARD_fitzjohnpi_haparrhenotoky__2020_20250625.R
+### 57) hap_and_eus_depy_fitMk_ARD_fitzjohnpi_haparrhenotoky__2020_20250625.R
 - **Description:** An R script designed to test the correlated evolution of Sociality and Ploidy across the full phylogeny from [Chesters (2020)](https://resjournals.onlinelibrary.wiley.com/doi/abs/10.1111/syen.12414). This script is optimized for streamlined analysis using the `fitPagel` function and is configured for running on the SOL HPC system at ASU. The term **depy** in the file name indicates that "ploidy" is the dependent variable in the analysis. In this script, haplodiploidy is treated in the strict sense, using **HD.arrhenotoky**.
 - **File path:** /R scripts/FitPagel/hap_and_eus_depy_fitMk_ARD_fitzjohnpi_haparrhenotoky__2020_20250625.R
 - **Format(s):** `.R`  
@@ -1368,7 +1368,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Phytools Pagel's Method Documentation](http://phytools.org/mexico2018/ex/8/Pagel94-method.html)
   - [Blog on `fitPagel` Quirks](http://blog.phytools.org/2016/05/fix-to-peculiar-quirk-of-fitpagel.html)
 
-### 32) hap_and_eus_depxy_fitMk_ARD_fitzjohnpi_haparrhenotoky__2020_20250625.R
+### 58) hap_and_eus_depxy_fitMk_ARD_fitzjohnpi_haparrhenotoky__2020_20250625.R
 - **Description:** An R script designed to test the correlated evolution of Sociality and Ploidy across the full phylogeny from [Chesters (2020)](https://resjournals.onlinelibrary.wiley.com/doi/abs/10.1111/syen.12414). This script is optimized for streamlined analysis using the `fitPagel` function and is configured for running on the SOL HPC system at ASU. The term **depxy** in the file name indicates that both "sociality" and "ploidy" are interdependent variables in the analysis. In this script, haplodiploidy is treated in the strict sense, using **HD.arrhenotoky**.
 - **File path:** /R scripts/FitPagel/hap_and_eus_depxy_fitMk_ARD_fitzjohnpi_haparrhenotoky__2020_20250625.R
 - **Format(s):** `.R`  
@@ -1392,7 +1392,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Phytools Pagel's Method Documentation](http://phytools.org/mexico2018/ex/8/Pagel94-method.html)
   - [Blog on `fitPagel` Quirks](http://blog.phytools.org/2016/05/fix-to-peculiar-quirk-of-fitpagel.html)
 
-### 33) hap_and_eus_depx_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_2020_20250625.R
+### 59) hap_and_eus_depx_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_2020_20250625.R
 - **Description:** An R script designed to test the correlated evolution of Sociality and Ploidy across the full phylogeny from [Chesters (2020)](https://resjournals.onlinelibrary.wiley.com/doi/abs/10.1111/syen.12414). This script is optimized for streamlined analysis using the `fitPagel` function and is configured for running on the SOL HPC system at ASU. The term **depx** in the file name indicates that "sociality" is the dependent variable in the analysis. In this script, haplodiploidy is treated in the strict sense, using **HD.arrhenotoky**, and eusociality is treated in the strict sense, following [Boomsma and Gawne (2018)](https://onlinelibrary.wiley.com/doi/10.1111/brv.12330).
 - **File path:** /R scripts/FitPagel/hap_and_eus_depx_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_2020_20250625.R
 - **Format(s):** `.R`  
@@ -1416,7 +1416,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Phytools Pagel's Method Documentation](http://phytools.org/mexico2018/ex/8/Pagel94-method.html)
   - [Blog on `fitPagel` Quirks](http://blog.phytools.org/2016/05/fix-to-peculiar-quirk-of-fitpagel.html)
 
-### 34) hap_and_eus_depy_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_2020_20250625.R
+### 60) hap_and_eus_depy_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_2020_20250625.R
 - **Description:** An R script designed to test the correlated evolution of Sociality and Ploidy across the full phylogeny from [Chesters (2020)](https://resjournals.onlinelibrary.wiley.com/doi/abs/10.1111/syen.12414). This script is optimized for streamlined analysis using the `fitPagel` function and is configured for running on the SOL HPC system at ASU. The term **depy** in the file name indicates that "ploidy" is the dependent variable in the analysis. In this script, haplodiploidy is treated in the strict sense, using **HD.arrhenotoky**, and eusociality is treated in the strict sense, following [Boomsma and Gawne (2018)](https://onlinelibrary.wiley.com/doi/10.1111/brv.12330).
 - **File path:** /R scripts/FitPagel/hap_and_eus_depy_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_2020_20250625.R
 - **Format(s):** `.R`  
@@ -1440,7 +1440,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Phytools Pagel's Method Documentation](http://phytools.org/mexico2018/ex/8/Pagel94-method.html)
   - [Blog on `fitPagel` Quirks](http://blog.phytools.org/2016/05/fix-to-peculiar-quirk-of-fitpagel.html)
 
-### 35) hap_and_eus_depxy_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_2020_20250625.R
+### 61) hap_and_eus_depxy_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_2020_20250625.R
 - **Description:** An R script designed to test the correlated evolution of Sociality and Ploidy across the full phylogeny from [Chesters (2020)](https://resjournals.onlinelibrary.wiley.com/doi/abs/10.1111/syen.12414). This script is optimized for streamlined analysis using the `fitPagel` function and is configured for running on the SOL HPC system at ASU. The term **depxy** in the file name indicates that both "sociality" and "ploidy" are interdependent variables in the analysis. In this script, haplodiploidy is treated in the strict sense, using **HD.arrhenotoky**, and eusociality is treated in the strict sense, following [Boomsma and Gawne (2018)](https://onlinelibrary.wiley.com/doi/10.1111/brv.12330).
 - **File path:** /R scripts/FitPagel/hap_and_eus_depxy_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_2020_20250625.R
 - **Format(s):** `.R`  
@@ -1464,7 +1464,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Phytools Pagel's Method Documentation](http://phytools.org/mexico2018/ex/8/Pagel94-method.html)
   - [Blog on `fitPagel` Quirks](http://blog.phytools.org/2016/05/fix-to-peculiar-quirk-of-fitpagel.html)
 
-### 36) hap_and_eus_depy_fitMk_ARD_fitzjohnpi_2020_20250626.R
+### 62) hap_and_eus_depy_fitMk_ARD_fitzjohnpi_2020_20250626.R
 - **Description:** An R script designed to test the correlated evolution of Sociality and Ploidy across the full phylogeny from [Chesters (2020)](https://resjournals.onlinelibrary.wiley.com/doi/abs/10.1111/syen.12414). This script is optimized for streamlined analysis using the `fitPagel` function and is configured for running on the SOL HPC system at ASU. The term **depy** in the file name indicates that "ploidy" is the dependent variable in the analysis.
 - **File path:** /R scripts/FitPagel/hap_and_eus_depy_fitMk_ARD_fitzjohnpi_2020_20250626.R
 - **Format(s):** `.R`  
@@ -1488,7 +1488,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Phytools Pagel's Method Documentation](http://phytools.org/mexico2018/ex/8/Pagel94-method.html)
   - [Blog on `fitPagel` Quirks](http://blog.phytools.org/2016/05/fix-to-peculiar-quirk-of-fitpagel.html)
 
-### 37) hap_and_eus_depxy_fitMk_ARD_fitzjohnpi_2020_20250626.R
+### 63) hap_and_eus_depxy_fitMk_ARD_fitzjohnpi_2020_20250626.R
 - **Description:** An R script designed to test the correlated evolution of Sociality and Ploidy across the full phylogeny from [Chesters (2020)](https://resjournals.onlinelibrary.wiley.com/doi/abs/10.1111/syen.12414). This script is optimized for streamlined analysis using the `fitPagel` function and is configured for running on the SOL HPC system at ASU. The term **depxy** in the file name indicates that both "sociality" and "ploidy" are interdependent variables in the analysis.
 - **File path:** /R scripts/FitPagel/hap_and_eus_depxy_fitMk_ARD_fitzjohnpi_2020_20250626.R
 - **Format(s):** `.R`  
@@ -1512,7 +1512,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Phytools Pagel's Method Documentation](http://phytools.org/mexico2018/ex/8/Pagel94-method.html)
   - [Blog on `fitPagel` Quirks](http://blog.phytools.org/2016/05/fix-to-peculiar-quirk-of-fitpagel.html)
 
-### 20) results_consolidated_halictidae_pruned_hdall_eusall_2020.R
+### 64) results_consolidated_halictidae_pruned_hdall_eusall_2020.R
 - **Description:** An R script designed to consolidate and analyze the results of `fitPagel` runs on phylogeny from [Chesters (2020)](https://resjournals.onlinelibrary.wiley.com/doi/abs/10.1111/syen.12414) to test the evolutionary correlation between Sociality and Ploidy. The Halictidae clade is pruned to enforce two origins of eusociality in this analysis. In this script, haplodiploidy is treated in a broad sense (**HD.all**), and eusociality is treated in a broad sense (**Eus.all**).
 - **File path:** /R scripts/FitPagel/results_consolidated_halictidae_pruned_hdall_eusall_2020.R
 - **Format(s):** `.R`  
@@ -1540,7 +1540,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Phytools Pagel's Method Documentation](http://phytools.org/mexico2018/ex/8/Pagel94-method.html)
   - [Chesters (2020) Phylogeny Source](https://resjournals.onlinelibrary.wiley.com/doi/abs/10.1111/syen.12414)
 
-### 21) results_consolidated_halictidae_pruned_hdarrh_eusall_2020.R
+### 65) results_consolidated_halictidae_pruned_hdarrh_eusall_2020.R
 - **Description:** An R script designed to consolidate and analyze the results of `fitPagel` runs on phylogeny from [Chesters (2020)](https://resjournals.onlinelibrary.wiley.com/doi/abs/10.1111/syen.12414) to test the evolutionary correlation between Sociality and Ploidy. The Halictidae clade is pruned to enforce two origins of eusociality in this analysis. In this script, haplodiploidy is treated in the strict sense (**HD.arrhenotoky**), and eusociality is treated in a broad sense (**Eus.all**).
 - **File path:** /R scripts/FitPagel/results_consolidated_halictidae_pruned_hdarrh_eusall_2020.R
 - **Format(s):** `.R`  
@@ -1568,7 +1568,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Phytools Pagel's Method Documentation](http://phytools.org/mexico2018/ex/8/Pagel94-method.html)
   - [Chesters (2020) Phylogeny Source](https://resjournals.onlinelibrary.wiley.com/doi/abs/10.1111/syen.12414)
 
-### 22) results_consolidated_halictidae_pruned_hdarrh_euskoos_2020.R
+### 66) results_consolidated_halictidae_pruned_hdarrh_euskoos_2020.R
 - **Description:** An R script designed to consolidate and analyze the results of `fitPagel` runs on phylogeny from [Chesters (2020)](https://resjournals.onlinelibrary.wiley.com/doi/abs/10.1111/syen.12414) to test the evolutionary correlation between Sociality and Ploidy. The Halictidae clade is pruned to enforce two origins of eusociality in this analysis. In this script, haplodiploidy is treated in the strict sense (**HD.arrhenotoky**), and eusociality is treated in the strict sense (**EusKoos**) based on [Boomsma and Gawne (2018)](https://onlinelibrary.wiley.com/doi/10.1111/brv.12330).
 - **File path:** /R scripts/FitPagel/results_consolidated_halictidae_pruned_hdarrh_euskoos_2020.R
 - **Format(s):** `.R`  
@@ -1597,7 +1597,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Chesters (2020) Phylogeny Source](https://resjournals.onlinelibrary.wiley.com/doi/abs/10.1111/syen.12414)
   - [Boomsma and Gawne (2018) Eusociality](https://onlinelibrary.wiley.com/doi/10.1111/brv.12330)
 
-### 23) results_consolidated_fulltree_hdall_eusall_2020.R
+### 67) results_consolidated_fulltree_hdall_eusall_2020.R
 - **Description:** An R script designed to consolidate and analyze the results of `fitPagel` runs across the full phylogeny from [Chesters (2020)](https://resjournals.onlinelibrary.wiley.com/doi/abs/10.1111/syen.12414). The script focuses on testing evolutionary correlations between Sociality and Ploidy using multiple dependency models (**depx**, **depy**, and **depxy**) and applies model comparison techniques to identify the best-fit model.
 - **File path:** /R scripts/FitPagel/results_consolidated_fulltree_hdall_eusall_2020.R
 - **Format(s):** `.R`  
@@ -1625,7 +1625,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Phytools Pagel's Method Documentation](http://phytools.org/mexico2018/ex/8/Pagel94-method.html)
   - [Chesters (2020) Phylogeny Source](https://resjournals.onlinelibrary.wiley.com/doi/abs/10.1111/syen.12414)
 
-### 24) results_consolidated_fulltree_hdall_euskoos_2020.R
+### 68) results_consolidated_fulltree_hdall_euskoos_2020.R
 - **Description:** An R script designed to consolidate and analyze the results of `fitPagel` runs across the full phylogeny from [Chesters (2020)](https://resjournals.onlinelibrary.wiley.com/doi/abs/10.1111/syen.12414). The script focuses on testing evolutionary correlations between Sociality and Ploidy using multiple dependency models (**depx**, **depy**, and **depxy**) and applies model comparison techniques to identify the best-fit model. In this analysis, haplodiploidy is treated in a broad sense (**HD.all**), and eusociality is treated in a strict sense (**Eus.strict**).
 - **File path:** /R scripts/FitPagel/results_consolidated_fulltree_hdall_euskoos_2020.R
 - **Format(s):** `.R`  
@@ -1653,7 +1653,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Chesters (2020) Phylogeny Source](https://resjournals.onlinelibrary.wiley.com/doi/abs/10.1111/syen.12414)
   - [Boomsma and Gawne (2018) Eusociality](https://onlinelibrary.wiley.com/doi/10.1111/brv.12330)
 
-### 25) results_consolidated_fulltree_hdarrh_eusall_2020.R
+### 69) results_consolidated_fulltree_hdarrh_eusall_2020.R
 - **Description:** An R script designed to consolidate and analyze the results of `fitPagel` runs across the full phylogeny from [Chesters (2020)](https://resjournals.onlinelibrary.wiley.com/doi/abs/10.1111/syen.12414). The script focuses on testing evolutionary correlations between Sociality and Ploidy using multiple dependency models (**depx**, **depy**, and **depxy**) and applies model comparison techniques to identify the best-fit model. In this analysis, haplodiploidy is treated in the strict sense (**HD.arrhenotoky**), and eusociality is treated in a broad sense (**Eus.all**).
 - **File path:** /R scripts/FitPagel/results_consolidated_fulltree_hdarrh_eusall_2020.R
 - **Format(s):** `.R`  
@@ -1680,7 +1680,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Phytools Pagel's Method Documentation](http://phytools.org/mexico2018/ex/8/Pagel94-method.html)
   - [Chesters (2020) Phylogeny Source](https://resjournals.onlinelibrary.wiley.com/doi/abs/10.1111/syen.12414)
 
-### 26) results_consolidated_fulltree_hdarrh_euskoos_2020.R
+### 70) results_consolidated_fulltree_hdarrh_euskoos_2020.R
 - **Description:** An R script designed to consolidate and analyze the results of `fitPagel` runs across the full phylogeny from [Chesters (2020)](https://resjournals.onlinelibrary.wiley.com/doi/abs/10.1111/syen.12414). The script focuses on testing evolutionary correlations between Sociality and Ploidy using multiple dependency models (**depx**, **depy**, and **depxy**) and applies model comparison techniques to identify the best-fit model. In this analysis, haplodiploidy is treated in the strict sense (**HD.arrhenotoky**), and eusociality is treated in the strict sense (**EusKoos**) based on [Boomsma and Gawne (2018)](https://onlinelibrary.wiley.com/doi/10.1111/brv.12330).
 - **File path:** /R scripts/FitPagel/results_consolidated_fulltree_hdarrh_euskoos_2020.R
 - **Format(s):** `.R`  
@@ -1708,7 +1708,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Chesters (2020) Phylogeny Source](https://resjournals.onlinelibrary.wiley.com/doi/abs/10.1111/syen.12414)
   - [Boomsma and Gawne (2018) Eusociality](https://onlinelibrary.wiley.com/doi/10.1111/brv.12330)  
 
-### 37) lineages-through-time_plot_20240516.R
+### 71) lineages-through-time_plot_20240516.R
 - **Description:** An R script designed to create a lineage-through-time (LTT) plot for an insect phylogeny. The script focuses on visualizing phylogenetic dynamics over evolutionary time, using cumulative lineage counts and proportions of states to represent patterns of diversification and trait evolution.
 - **File path:** /R scripts/LTT/lineages-through-time_plot_20240516.R
 - **Format(s):** `.R`  
@@ -1740,7 +1740,7 @@ This work received partial support from National Science Foundation (IOS 2128304
 - **References:**
   - [Phytools Documentation](https://cran.r-project.org/web/packages/phytools/phytools.pdf)
 
-### 38) lineages-through-time_plot_2020_20251017.R
+### 72) lineages-through-time_plot_2020_20251017.R
 - **Description:** An R script designed to create a lineage-through-time (LTT) plot for an insect phylogeny from [Chesters (2020)](https://resjournals.onlinelibrary.wiley.com/doi/abs/10.1111/syen.12414). This script computes LTT trajectories from a stochastic character mapping (`simmap`) object, saves the resulting LTT data as an `.rds` file, and generates multiple visualizations of lineage accumulation through time. These include an overall LTT plot, a cumulative area plot for mapped states, and a plot showing the proportion of lineages in each state over time.
 - **File path:** /R scripts/LTT/lineages-through-time_plot_2020_20251017.R
 - **Format(s):** `.R`  
@@ -1770,7 +1770,7 @@ This work received partial support from National Science Foundation (IOS 2128304
 - **References:**
   - [Phytools Documentation](https://cran.r-project.org/web/packages/phytools/phytools.pdf)
 
-### 38) hap_and_eus_simmap_fitMk_ARD_fitzjohnpi_fulltree_20231023.R
+### 73) hap_and_eus_simmap_fitMk_ARD_fitzjohnpi_fulltree_20231023.R
 - **Description:** An R script designed to conduct stochastic character mapping (Simmap) analysis for Sociality and Ploidy across the full phylogeny from [Chesters (2017)](https://academic.oup.com/sysbio/article/66/3/426/2684526). This script is optimized for streamlined execution on the SOL HPC system at ASU. In this script, haplodiploidy is treated in a broad sense (**HD.all**), and eusociality is treated in a broad sense (**Eusocial**).
 - **File path:** /R scripts/Simmap/hap_and_eus_simmap_fitMk_ARD_fitzjohnpi_fulltree_20231023.R
 - **Format(s):** `.R`  
@@ -1800,7 +1800,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Chesters (2017) Phylogeny Source](https://academic.oup.com/sysbio/article/66/3/426/2684526)
 
 
-### 39) hap_and_eus_simmap_fitMk_ARD_fitzjohnpi_hapall_halictidae_pruned_20240402.R
+### 74) hap_and_eus_simmap_fitMk_ARD_fitzjohnpi_hapall_halictidae_pruned_20240402.R
 - **Description:** An R script designed to conduct stochastic character mapping (Simmap) analysis for Sociality and Ploidy on the phylogeny from [Chesters (2017)](https://academic.oup.com/sysbio/article/66/3/426/2684526). he Halictidae clade is pruned to enforce two origins of eusociality in this analysis. This script is optimized for streamlined execution on the SOL HPC system at ASU. In this analysis, haplodiploidy is treated in a broad sense (**HD.all**), and eusociality is treated in a broad sense (**Eusocial**).
 - **File path:** /R scripts/Simmap/hap_and_eus_simmap_fitMk_ARD_fitzjohnpi_hapall_halictidae_pruned_20240402.R
 - **Format(s):** `.R`  
@@ -1830,7 +1830,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Chesters (2017) Phylogeny Source](https://academic.oup.com/sysbio/article/66/3/426/2684526)
 
 
-### 40) hap_and_eus_simmap_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_fulltree_20240402.R
+### 75) hap_and_eus_simmap_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_fulltree_20240402.R
 - **Description:** An R script designed to conduct stochastic character mapping (Simmap) analysis for Sociality and Ploidy the full phylogeny from [Chesters (2017)](https://academic.oup.com/sysbio/article/66/3/426/2684526). This script is optimized for streamlined execution on the SOL HPC system at ASU. In this analysis, haplodiploidy is treated in the strict sense (**HD.arrhenotoky**), and eusociality is treated in the strict sense (**EusKoos**) based on [Boomsma and Gawne (2018)](https://onlinelibrary.wiley.com/doi/10.1111/brv.12330).
 - **File path:** /R scripts/Simmap/hap_and_eus_simmap_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_fulltree_20240402.R
 - **Format(s):** `.R`  
@@ -1861,7 +1861,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Boomsma and Gawne (2018) Eusociality](https://onlinelibrary.wiley.com/doi/10.1111/brv.12330)
 
 
-### 41) hap_and_eus_simmap_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_halictidae_pruned.R
+### 76) hap_and_eus_simmap_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_halictidae_pruned.R
 - **Description:** An R script designed to conduct stochastic character mapping (Simmap) analysis for Sociality and Ploidy on the phylogeny from [Chesters (2017)](https://academic.oup.com/sysbio/article/66/3/426/2684526). he Halictidae clade is pruned to enforce two origins of eusociality in this analysis. This script is optimized for streamlined execution on the SOL HPC system at ASU. In this analysis, haplodiploidy is treated in the strict sense (**HD.arrhenotoky**), and eusociality is treated in the strict sense (**Eusocial.strict**).
 - **File path:** /R scripts/Simmap/hap_and_eus_simmap_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_halictidae_pruned.R
 - **Format(s):** `.R`  
@@ -1892,7 +1892,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Boomsma and Gawne (2018) Eusociality](https://onlinelibrary.wiley.com/doi/10.1111/brv.12330)
 
 
-### 42) hap_and_eus_simmap_fitMk_ARD_fitzjohnpi_haparrhenotoky_fulltree_20231023.R
+### 77) hap_and_eus_simmap_fitMk_ARD_fitzjohnpi_haparrhenotoky_fulltree_20231023.R
 - **Description:** An R script designed to conduct stochastic character mapping (Simmap) analysis for the traits Eusociality and Haplodiploidy across the full phylogeny from [Chesters (2017)](https://academic.oup.com/sysbio/article/66/3/426/2684526). This script is optimized for streamlined execution on the SOL HPC system at ASU. In this analysis, haplodiploidy is treated in the strict sense (**HD.arrhenotoky**), and eusociality is treated in the broad sense (**Eusocial**).
 - **File path:** /R scripts/Simmap/hap_and_eus_simmap_fitMk_ARD_fitzjohnpi_haparrhenotoky_fulltree_20231023.R
 - **Format(s):** `.R`  
@@ -1922,7 +1922,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Chesters (2017) Phylogeny Source](https://academic.oup.com/sysbio/article/66/3/426/2684526)
 
 
-### 43) hap_and_eus_simmap_fitMk_ARD_fitzjohnpi_haparrhenotoky_halictidae_pruned_20231023.R
+### 78) hap_and_eus_simmap_fitMk_ARD_fitzjohnpi_haparrhenotoky_halictidae_pruned_20231023.R
 - **Description:** An R script designed to conduct stochastic character mapping (Simmap) analysis for Sociality and Ploidy on the phylogeny from [Chesters (2017)](https://academic.oup.com/sysbio/article/66/3/426/2684526). The Halictidae clade is pruned to enforce two origins of eusociality in this analysis. This script is optimized for streamlined execution on the SOL HPC system at ASU. In this analysis, haplodiploidy is treated in the strict sense (**HD.arrhenotoky**), and the phylogeny is pruned to enforce two independent origins of Eusociality.
 - **File path:** /R scripts/Simmap/hap_and_eus_simmap_fitMk_ARD_fitzjohnpi_haparrhenotoky_halictidae_pruned_20231023.R
 - **Format(s):** `.R`  
@@ -1952,7 +1952,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Chesters (2017) Phylogeny Source](https://academic.oup.com/sysbio/article/66/3/426/2684526)
 
 
-### 44) hap_and_eus_simmap_fitMk_ARD_fitzjohnpi_hdall_euskoos_fulltree_20240402.R
+### 79) hap_and_eus_simmap_fitMk_ARD_fitzjohnpi_hdall_euskoos_fulltree_20240402.R
 - **Description:** An R script designed to conduct stochastic character mapping (Simmap) analysis for the traits Eusociality and Haplodiploidy across the full phylogeny from [Chesters (2017)](https://academic.oup.com/sysbio/article/66/3/426/2684526). This script is optimized for streamlined execution on the SOL HPC system at ASU. In this analysis, haplodiploidy is treated in the broad sense (**HD.all**), and eusociality is treated in the strict sense (**Eus.strict**) based on [Boomsma and Gawne (2018)](https://onlinelibrary.wiley.com/doi/10.1111/brv.12330).
 - **File path:** /R scripts/Simmap/hap_and_eus_simmap_fitMk_ARD_fitzjohnpi_haparrhenotoky_halictidae_pruned_20231023.R
 - **Format(s):** `.R`  
@@ -1983,7 +1983,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Boomsma and Gawne (2018) Eusociality](https://onlinelibrary.wiley.com/doi/10.1111/brv.12330)
 
 
-### 45) results_simmap_fitMk_ARD_fitzjohnpi_fulltree.R
+### 80) results_simmap_fitMk_ARD_fitzjohnpi_fulltree.R
 - **Description:** An R script designed to consolidate and visualize results from a Simmap analysis using the phylogeny from [Chesters (2017)](https://academic.oup.com/sysbio/article/66/3/426/2684526). Eusociality and Haplodiploidy, both defined in a broad sense (**HD.all** and **Eus.all**) for this analysis.
 - **File path:** /R scripts/Simmap/results_simmap_fitMk_ARD_fitzjohnpi_fulltree.R
 - **Format(s):** `.R`  
@@ -2022,7 +2022,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Chesters (2017) Phylogeny Source](https://academic.oup.com/sysbio/article/66/3/426/2684526)
 
 
-### 46) results_simmap_fitMk_ARD_fitzjohnpi_hapall_eusall_halictidae_pruned.R
+### 81) results_simmap_fitMk_ARD_fitzjohnpi_hapall_eusall_halictidae_pruned.R
 - **Description:** An R script designed to consolidate and visualize results from a Simmap analysis using the phylogeny from [Chesters (2017)](https://academic.oup.com/sysbio/article/66/3/426/2684526). The Halictidae clade is pruned to enforce two origins of eusociality in this analysis. Haplodiploidy is broadly defined (**HD.all**) and Eusociality is strictly defined (**EusKoos**) based on [Boomsma and Gawne (2018)](https://onlinelibrary.wiley.com/doi/10.1111/brv.12330).
 - **File path:** /R scripts/Simmap/results_simmap_fitMk_ARD_fitzjohnpi_hapall_eusall_halictidae_pruned.R
 - **Format(s):** `.R`  
@@ -2062,7 +2062,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Boomsma and Gawne (2018) Eusociality](https://onlinelibrary.wiley.com/doi/10.1111/brv.12330)
 
 
-### 47) results_simmap_fitMk_ARD_fitzjohnpi_hapall_euskoos_fulltree.R
+### 82) results_simmap_fitMk_ARD_fitzjohnpi_hapall_euskoos_fulltree.R
 - **Description:** An R script designed to consolidate and visualize results from a Simmap analysis using the phylogeny from [Chesters (2017)](https://academic.oup.com/sysbio/article/66/3/426/2684526). Haplodiploidy is broadly defined (**HD.all**) and Eusociality is strictly defined (**EusKoos**) based on [Boomsma and Gawne (2018)](https://onlinelibrary.wiley.com/doi/10.1111/brv.12330).
 - **File path:** /R scripts/Simmap/results_simmap_fitMk_ARD_fitzjohnpi_hapall_euskoos_fulltree.R
 - **Format(s):** `.R`  
@@ -2102,7 +2102,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Boomsma and Gawne (2018) Eusociality](https://onlinelibrary.wiley.com/doi/10.1111/brv.12330)
 
 
-### 48) results_simmap_fitMk_ARD_fitzjohnpi_haparrh_euskoos_fulltree.R
+### 83) results_simmap_fitMk_ARD_fitzjohnpi_haparrh_euskoos_fulltree.R
 - **Description:** An R script designed to consolidate and visualize results from a Simmap analysis using the phylogeny from [Chesters (2017)](https://academic.oup.com/sysbio/article/66/3/426/2684526). Haplodiploidy is strictly defined (**HD.arrhenotoky**) and Eusociality is strictly defined (**EusKoos**) based on [Boomsma and Gawne (2018)](https://onlinelibrary.wiley.com/doi/10.1111/brv.12330).
 - **File path:** /R scripts/Simmap/results_simmap_fitMk_ARD_fitzjohnpi_haparrh_euskoos_fulltree.R
 - **Format(s):** `.R`  
@@ -2142,7 +2142,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Boomsma and Gawne (2018) Eusociality](https://onlinelibrary.wiley.com/doi/10.1111/brv.12330)
 
 
-### 49) results_simmap_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_halictidae_pruned.R
+### 84) results_simmap_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_halictidae_pruned.R
 - **Description:** An R script designed to consolidate and visualize results from a Simmap analysis using the phylogeny from [Chesters (2017)](https://academic.oup.com/sysbio/article/66/3/426/2684526). The Halictidae clade is pruned to enforce two origins of eusociality in this analysis. Haplodiploidy is strictly defined (**HD.arrhenotoky**) and Eusociality is strictly defined (**EusKoos**) based on [Boomsma and Gawne (2018)](https://onlinelibrary.wiley.com/doi/10.1111/brv.12330).
 - **File path:** /R scripts/Simmap/results_simmap_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_halictidae_pruned.R
 - **Format(s):** `.R`  
@@ -2182,7 +2182,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Boomsma and Gawne (2018) Eusociality](https://onlinelibrary.wiley.com/doi/10.1111/brv.12330)
 
 
-### 50) results_simmap_fitMk_ARD_fitzjohnpi_haparrhenotoky_fulltree.R
+### 85) results_simmap_fitMk_ARD_fitzjohnpi_haparrhenotoky_fulltree.R
 - **Description:** An R script designed to consolidate and visualize results from a Simmap analysis using the phylogeny from [Chesters (2017)](https://academic.oup.com/sysbio/article/66/3/426/2684526). Haplodiploidy is strictly defined (**HD.arrhenotoky**) and Eusociality is broadly defined (**Eusocial**) based on [Boomsma and Gawne (2018)](https://onlinelibrary.wiley.com/doi/10.1111/brv.12330).
 - **File path:** /R scripts/Simmap/results_simmap_fitMk_ARD_fitzjohnpi_haparrhenotoky_fulltree.R
 - **Format(s):** `.R`  
@@ -2221,7 +2221,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Boomsma and Gawne (2018) Eusociality](https://onlinelibrary.wiley.com/doi/10.1111/brv.12330)
 
 
-### 51) results_simmap_fitMk_ARD_fitzjohnpi_haparrhenotoky_halictidae_pruned.R
+### 86) results_simmap_fitMk_ARD_fitzjohnpi_haparrhenotoky_halictidae_pruned.R
 - **Description:** An R script designed to consolidate and visualize results from a Simmap analysis using the phylogeny from [Chesters (2017)](https://academic.oup.com/sysbio/article/66/3/426/2684526). The Halictidae clade is pruned to enforce two origins of eusociality in this analysis. Haplodiploidy is strictly defined (**HD.arrhenotoky**) and Eusociality is broadly defined (**Eusocial**).
 - **File path:** /R scripts/Simmap/results_simmap_fitMk_ARD_fitzjohnpi_haparrhenotoky_halictidae_pruned.R
 - **Format(s):** `.R`  
@@ -2260,7 +2260,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Boomsma and Gawne (2018) Eusociality](https://onlinelibrary.wiley.com/doi/10.1111/brv.12330)
 
 
-  ### 39) results_simmap_fitMk_ARD_fitzjohnpi_haparrh_euskoos_halictidae_pruned_2020.R
+  ### 87) results_simmap_fitMk_ARD_fitzjohnpi_haparrh_euskoos_halictidae_pruned_2020.R
 - **Description:** An R script designed to consolidate and visualize results from a stochastic character mapping (Simmap) analysis on a Halictidae-pruned insect phylogeny (Chesters 2020). This script focuses on strict definitions of haplodiploidy (HD.arrhenotoky) and eusociality (Eus.strict.koos.gawne), extracting transition counts across major insect clades and generating comparative visualizations of gains and losses of eusociality.
 - **File path:** /R scripts/Simmap/results_simmap_fitMk_ARD_fitzjohnpi_haparrh_euskoos_halictidae_pruned_2020.R
 - **Format(s):** `.R`  
@@ -2288,7 +2288,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   5. Restructure data for gains and losses of eusociality.
   6. Generate ridgeline and density-based visualizations.
 
-### 40) results_simmap_fitMk_ARD_fitzjohnpi_haparrh_euskoos_2020.R
+### 88) results_simmap_fitMk_ARD_fitzjohnpi_haparrh_euskoos_2020.R
 - **Description:** An R script designed to consolidate and visualize Simmap results across the full insect phylogeny (Chesters 2020), using strict definitions of haplodiploidy and eusociality. This script extracts transition counts across clades and produces density-based visualizations of evolutionary transitions.
 - **File path:** /R scripts/Simmap/results_simmap_fitMk_ARD_fitzjohnpi_haparrh_euskoos_2020.R
 - **Format(s):** `.R`  
@@ -2311,7 +2311,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   3. Extract clade-specific transitions.
   4. Generate comparative density plots.
 
-### 41) hap_and_eus_simmap_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_halictidae_pruned_2020_20251017.R
+###89) hap_and_eus_simmap_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_halictidae_pruned_2020_20251017.R
 - **Description:** An R script designed to perform stochastic character mapping (Simmap) on a Halictidae-pruned insect phylogeny, using strict definitions of haplodiploidy and eusociality. This script generates simulated evolutionary histories under an ARD model using `make.simmap`.
 - **File path:** /R scripts/Simmap/hap_and_eus_simmap_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_halictidae_pruned_2020_20251017.R
 - **Format(s):** `.R`  
@@ -2332,7 +2332,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   3. Run `make.simmap` with ARD model.
   4. Save simulated trees.
 
-### 42) hap_and_eus_simmap_fitMk_ARD_fitzjohnpi_haparrhenotoky_fulltree_2020_20250707.R
+### 90) hap_and_eus_simmap_fitMk_ARD_fitzjohnpi_haparrhenotoky_fulltree_2020_20250707.R
 - **Description:** An R script designed to perform stochastic character mapping across the full insect phylogeny (Chesters 2020), using strict haplodiploidy and broad eusociality definitions.
 - **File path:** /R scripts/Simmap/hap_and_eus_simmap_fitMk_ARD_fitzjohnpi_haparrhenotoky_fulltree_2020_20250707.R
 - **Format(s):** `.R`  
@@ -2352,7 +2352,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   3. Run Simmap.
   4. Save output.
 
-### 43) hap_and_eus_simmap_fitMk_ARD_fitzjohnpi_hdall_euskoos_fulltree_2020_20250707.R
+### 91) hap_and_eus_simmap_fitMk_ARD_fitzjohnpi_hdall_euskoos_fulltree_2020_20250707.R
 - **Description:** An R script designed to perform stochastic character mapping using a broad definition of haplodiploidy (HD.all) and strict eusociality across the full insect phylogeny.
 - **File path:** /R scripts/Simmap/hap_and_eus_simmap_fitMk_ARD_fitzjohnpi_hdall_euskoos_fulltree_2020_20250707.R
 - **Format(s):** `.R`  
@@ -2372,7 +2372,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   3. Run Simmap.
   4. Save output.
 
-### 44) hap_and_eus_simmap_fitMk_ARD_fitzjohnpi_fulltree_2020_20250707.R
+### 92) hap_and_eus_simmap_fitMk_ARD_fitzjohnpi_fulltree_2020_20250707.R
 - **Description:** An R script designed to perform stochastic character mapping across the full insect phylogeny using broad definitions of both haplodiploidy and eusociality.
 - **File path:** /R scripts/Simmap/hap_and_eus_simmap_fitMk_ARD_fitzjohnpi_fulltree_2020_20250707.R
 - **Format(s):** `.R`  
@@ -2392,8 +2392,8 @@ This work received partial support from National Science Foundation (IOS 2128304
   3. Run Simmap.
   4. Save results.
 
-### 45) CTMC_2017.R
-- **Description:** An R script designed to test regime-dependent transition rates of eusociality using a Continuous-Time Markov Chain (CTMC) framework on the 2017 insect phylogeny. This script combines stochastic character mapping of ploidy (DD ↔ HD) with a CTMC model of eusociality (solitary ↔ eusocial), allowing the rate of eusocial origins (q01) to vary across evolutionary regimes (diploid, non-aculeate haplodiploid, and aculeate haplodiploid). :contentReference[oaicite:0]{index=0}  
+### 93) CTMC_2017.R
+- **Description:** An R script designed to test regime-dependent transition rates of eusociality using a Continuous-Time Markov Chain (CTMC) framework on the 2017 insect phylogeny. This script combines stochastic character mapping of ploidy (DD ↔ HD) with a CTMC model of eusociality (solitary ↔ eusocial), allowing the rate of eusocial origins (q01) to vary across evolutionary regimes (diploid, non-aculeate haplodiploid, and aculeate haplodiploid). 
 - **File path:** /R scripts/CTMC/CTMC_2017.R  
 - **Format(s):** `.R`  
 - **Size:** 72.4 KB  
@@ -2439,8 +2439,8 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Phytools Simmap Documentation](http://blog.phytools.org/search/label/simmap)
   - [Pagel (1994) Discrete Trait Evolution](https://doi.org/10.1098/rspb.1994.0066)
 
-### 46) CTMC_2020.R
-- **Description:** An R script designed to test regime-dependent transition rates of eusociality using a Continuous-Time Markov Chain (CTMC) framework on the 2020 insect phylogeny. This script integrates stochastic mapping of ploidy with a CTMC model of eusociality, allowing transition rates to vary across diploid, non-aculeate haplodiploid, and aculeate haplodiploid regimes. :contentReference[oaicite:1]{index=1}  
+### 94) CTMC_2020.R
+- **Description:** An R script designed to test regime-dependent transition rates of eusociality using a Continuous-Time Markov Chain (CTMC) framework on the 2020 insect phylogeny. This script integrates stochastic mapping of ploidy with a CTMC model of eusociality, allowing transition rates to vary across diploid, non-aculeate haplodiploid, and aculeate haplodiploid regimes. 
 - **File path:** /R scripts/CTMC/CTMC_2020.R  
 - **Format(s):** `.R`  
 - **Size:** 74.1 KB  
@@ -2486,7 +2486,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - [Phytools Simmap Documentation](http://blog.phytools.org/search/label/simmap)
   - [Pagel (1994) Discrete Trait Evolution](https://doi.org/10.1098/rspb.1994.0066)
 
-### 52) config_insect_calibration.txt
+### 95) config_insect_calibration.txt
 - **Description:** A configuration file for running **treePL**, a software designed for phylogenetic dating using penalized likelihood methods. This file specifies calibration constraints, input tree details, computational parameters, and optimization settings. The file is associated with insect phylogeny calibration for divergence time estimation.
 - **File path:** /Tree calibration files/config_insect_calibration.txt
 - **Format(s):** `.txt`
