@@ -59,13 +59,12 @@ This work received partial support from National Science Foundation (IOS 2128304
 |---|---|
 | **Trait Data Files** | 8 files |
 | **Tree Files** | 6 files |
-| **FitPagel Scripts** | 30 files |
-| **Simmap Scripts** | 14 files |
-| **Lineages-Through-Time (LTT)** | 1 file |
-| **CTMC Scripts** | 2 files |
-| **Results Consolidation Scripts** | 10 files |
-| **Supplementary Tables and Figures** | 6 files |
-| **Tree Calibration Files** | 2 files |
+| **FitPagel Scripts** | 56 files |
+| **Simmap Scripts** | 20 files |
+| **LTT scripts** | 2 files |
+| **Regime dependent analyses Scripts** | 2 files |
+| **Supplementary results** | 6 files |
+| **Tree Calibration Files** | 1 file |
 ---
 ### Software
 **Recommended software/tools:** RStudio 2023.06.0 or higher; R version 4.3.2 or higher
@@ -2594,7 +2593,18 @@ This work received partial support from National Science Foundation (IOS 2128304
   - Condensed model outputs and associated metrics.
 
 
-### 99) Summary of the fossil data used to time-calibrate phylogenies.xlsx
+### 99) Model comparison for regime-dependent evolution of eusociality.xlsx
+- **Description:** Model comparison statistics for regime-dependent Continuous-Time Markov Chain (CTMC) analyses of eusocial evolution. The file summarizes likelihood-based comparisons among models allowing transition rates to vary across diploid, non-aculeate haplodiploid, and aculeate haplodiploid regimes.
+- **File path:** /Supplementary results/Model comparison for regime-dependent evolution of eusociality.xlsx
+- **Format(s):** `.xlsx`  
+- **Size:** 10.4 KB  
+- **Contents:**
+  - Model likelihoods and AIC values for regime-dependent analyses.
+  - Summary statistics for transition-rate estimates.
+  - Model selection metrics used to identify the best-supported evolutionary model.
+
+
+### 100) Summary of the fossil data used to time-calibrate phylogenies.xlsx
 - **Description:** Summary of fossil calibration data used to time-calibrate the insect phylogenies analyzed in this study. The file includes fossil taxa, associated clades, calibration ages, and supporting references used for penalized likelihood dating analyses.
 - **File path:** /Supplementary results/Summary of the fossil data used to time-calibrate phylogenies.xlsx
 - **Format(s):** `.xlsx`  
@@ -2606,7 +2616,7 @@ This work received partial support from National Science Foundation (IOS 2128304
   - References supporting fossil placements and calibration dates.
 
 
-### 100) Supplementary figures.docx
+### 101) Supplementary figures.docx
 - **Description:** A Word document containing supplementary figures and associated captions for the manuscript. The figures summarize results from stochastic character mapping, `fitPagel` analyses, CTMC analyses, and lineage-through-time analyses across the 2017 and 2020 insect phylogenies. :contentReference[oaicite:0]{index=0}
 - **File path:** /Supplementary results/Supplementary figures.docx
 - **Format(s):** `.docx`  
