@@ -49,18 +49,23 @@ This work received partial support from National Science Foundation (IOS 2128304
 
 ## Data and File Overview
 ### Summary Metrics
-* **File count:** 52
-* **Total file size:** 22.8 MB
-* **File formats:** .csv, .tre, .R, .txt
+* **File count:** 100
+* **Total file size:** 48.9 MB
+* **File formats:** .csv, .tre, .R, .RDS, .txt, .xlsx, .docx
  
 ### Table of Contents
 
-| **Category**     | **Files**                                                                                                      |
-|-------------------|----------------------------------------------------------------------------------------------------------------|
-| **Trait Data Files** | eus_hap_data_20221130.csv  <br> halictidae_pruned_processed_pheno_df.csv <br> pheno_processed_df_20231023.csv <br> tip_labels_insect_tree_pruned_1000sp_eus_added_castor_20240130.csv <br> tree_of_sex_data_20221009.csv |
-| **Tree Files**    | halictidae_pruned_insect_phylogeny_2017_collapsed_calibrated.tre <br> insect_phylogeny_2017_collapsed_calibrated.tre <br> insect_phylogeny_2017_collapsed_calibrated_trimmed_1000sp_eus_added_castor.tre |
-| **R Scripts**     | **FitPagel**  <br> halictidae_pruned_hap_and_eus_depx_fitMk_ARD_fitzjohnpi_20231023.R <br> halictidae_pruned_hap_and_eus_depx_fitMk_ARD_fitzjohnpi_haparrhenotoky_20231023.R <br> halictidae_pruned_hap_and_eus_depx_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_20241216.R <br> halictidae_pruned_hap_and_eus_depxy_fitMk_ARD_fitzjohnpi_20231023.R <br> halictidae_pruned_hap_and_eus_depxy_fitMk_ARD_fitzjohnpi_haparrhenotoky_20231023.R <br> halictidae_pruned_hap_and_eus_depxy_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_20241216.R <br> halictidae_pruned_hap_and_eus_depy_fitMk_ARD_fitzjohnpi_20231023.R <br> halictidae_pruned_hap_and_eus_depy_fitMk_ARD_fitzjohnpi_haparrhenotoky_20231023.R <br> halictidae_pruned_hap_and_eus_depy_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_20241216.R <br> hap_and_eus_depx_fitMk_ARD_fitzjohnpi_20231023.R <br> hap_and_eus_depx_fitMk_ARD_fitzjohnpi_hapall_euskoos_20240323.R <br> hap_and_eus_depx_fitMk_ARD_fitzjohnpi_haparrhenotoky_20231023.R <br> hap_and_eus_depx_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_20240129.R <br> hap_and_eus_depxy_fitMk_ARD_fitzjohnpi_20231023.R <br> hap_and_eus_depxy_fitMk_ARD_fitzjohnpi_hapall_euskoos_20240323.R <br> hap_and_eus_depxy_fitMk_ARD_fitzjohnpi_haparrhenotoky_20231023.R <br> hap_and_eus_depxy_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_20240129.R <br> hap_and_eus_depy_fitMk_ARD_fitzjohnpi_20231023.R <br> hap_and_eus_depy_fitMk_ARD_fitzjohnpi_hapall_euskoos_20240323.R <br> hap_and_eus_depy_fitMk_ARD_fitzjohnpi_haparrhenotoky_20231023.R <br> hap_and_eus_depy_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_20240129.R <br> results_consolidated_fulltree_hdall_eusall.R <br> results_consolidated_fulltree_hdall_euskoos.R <br> results_consolidated_fulltree_hdarrh_eusall.R <br> results_consolidated_fulltree_hdarrh_euskoos.R <br> results_consolidated_halictidae_pruned_hdall_eusall.R <br> results_consolidated_halictidae_pruned_hdarrh_eusall.R <br> results_consolidated_halictidae_pruned_hdarrh_euskoos.R <br> <br> **LTT** <br> lineages-through-time_plot_20240516.R <br> <br> **Simmap** <br> hap_and_eus_simmap_fitMk_ARD_fitzjohnpi_fulltree_20231023.R <br> hap_and_eus_simmap_fitMk_ARD_fitzjohnpi_hapall_halictidae_pruned_20240402.R <br> hap_and_eus_simmap_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_fulltree_20240402.R <br> hap_and_eus_simmap_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_halictidae_pruned.R <br> hap_and_eus_simmap_fitMk_ARD_fitzjohnpi_haparrhenotoky_fulltree_20231023.R <br> hap_and_eus_simmap_fitMk_ARD_fitzjohnpi_haparrhenotoky_halictidae_pruned_20231023.R <br> hap_and_eus_simmap_fitMk_ARD_fitzjohnpi_hdall_euskoos_fulltree_20240402.R <br> results_simmap_fitMk_ARD_fitzjohnpi_fulltree.R <br> results_simmap_fitMk_ARD_fitzjohnpi_hapall_eusall_halictidae_pruned.R <br> results_simmap_fitMk_ARD_fitzjohnpi_hapall_euskoos_fulltree.R <br> results_simmap_fitMk_ARD_fitzjohnpi_haparrh_euskoos_fulltree.R <br> results_simmap_fitMk_ARD_fitzjohnpi_haparrhenotoky_euskoos_halictidae_pruned.R <br> results_simmap_fitMk_ARD_fitzjohnpi_haparrhenotoky_fulltree.R <br> results_simmap_fitMk_ARD_fitzjohnpi_haparrhenotoky_halictidae_pruned.R |
-| **Tree calibration files**     | config_insect_calibration.txt
+| **Category** | **Contents** |
+|---|---|
+| **Trait Data Files** | 8 files |
+| **Tree Files** | 6 files |
+| **FitPagel Scripts** | 30 files |
+| **Simmap Scripts** | 14 files |
+| **Lineages-Through-Time (LTT)** | 1 file |
+| **CTMC Scripts** | 2 files |
+| **Results Consolidation Scripts** | 10 files |
+| **Supplementary Tables and Figures** | 6 files |
+| **Tree Calibration Files** | 2 files |
 ---
 ### Software
 **Recommended software/tools:** RStudio 2023.06.0 or higher; R version 4.3.2 or higher
